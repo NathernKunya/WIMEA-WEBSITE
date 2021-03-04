@@ -1,0 +1,59 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NumericalWeatherController;
+use App\Http\Controllers\WeatherDataController;
+use App\Http\Controllers\WeatherInformationController;
+use App\Http\Controllers\WeatherStationController;
+use App\Http\Controllers\EditorialController;
+use App\Http\Controllers\MediaController;
+use App\Http\Controllers\MonthlyProgressController;
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\PublicationController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InternController;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ForumController;
+use App\Http\Controllers\ContactUsController;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view("layout.app");
+});
+Route::get("/",[IndexController::class , "index"])->name("/");
+Route::get("/numericalweather", [NumericalWeatherController::class ,"index"])->name("numericalweather");
+Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weatherdata");
+Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
+Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
+
+Route::get("/editorial", [EditorialController::class ,"index"])->name("editorial");
+Route::get("/monthlyprogress", [NumericalWeatherController::class ,"index"])->name("monthlyprogress");
+Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weatherdata");
+Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
+Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
+Route::get("/media", [MediaController::class ,"index"])->name("media");
+Route::get("/newsletter", [NewsletterController::class ,"index"])->name("newsletter");
+Route::get("/publication", [PublicationController::class ,"index"])->name("publication");
+Route::get("/intern", [InternController::class ,"index"])->name("intern");
+Route::get("/team", [TeamController::class ,"index"])->name("team");
+Route::get("/gallery", [GalleryController::class ,"index"])->name("gallery");
+Route::get("/forum", [ForumController::class ,"index"])->name("forum");
+Route::get("/contact", [ContactUsController::class ,"index"])->name("contact");
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
