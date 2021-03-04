@@ -209,7 +209,7 @@
 
 			<div class="form-group ml-5">
 				<label for="file">FILE TO UPLOAD</label>
-				<input type="file" name="file" class="form-control" 
+				<input type="file" name="file[]" multiple class="form-control" 
 				
 				id="file">
 			</div>
