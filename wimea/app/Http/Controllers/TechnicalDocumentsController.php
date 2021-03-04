@@ -14,16 +14,15 @@ class TechnicalDocumentsController extends Controller
     }
     public function upload(Request $request)
     {  
+        $request->validate([
+            'date'=>'required',
+            'name'=>'required',
+            'category'=>'required',
+            // 'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
+        ]);
 
         if($request->hasfile("file")){
             foreach($request->file("file") as $fileName){
-                $request->validate([
-                    'date'=>'required',
-                    'name'=>'required',
-                    'category'=>'required',
-                    // 'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
-                ]);
-                
                 $originalfileName = $fileName->getClientOriginalName();
                 $explode =explode(".", $originalfileName);
                 $ext = end($explode);
@@ -36,27 +35,16 @@ class TechnicalDocumentsController extends Controller
         
         $moved =  $fileName->move(public_path('uploads'), $newfileName);
         //$file->move(public_path() . '/mytestfile/', $name);
-        if($moved){
             $inserted = DB::insert('insert into documents (name, date, category ,document) 
             values (?, ?,?,?)', [$request->name , $request->date, $request->category , $newfileName]);
-            if($inserted){
-                     return back()->with('success','You have successfully upload file.');
-        
-            }
-                else{
-            return back()->with('error','file to upload file.');
-        } 
-   
-        }
-
 
             }
+            return back()->with("success", "files uploaded successfully");
 
         }
-        
-   
-
-   
+        else {
+            return back()->with("status", "you have an error");
+        }
    
     }
 
