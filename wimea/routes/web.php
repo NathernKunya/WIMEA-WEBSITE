@@ -17,6 +17,8 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\TechnicalDocumentsController;
+use App\Http\Controllers\PhotosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,6 +53,12 @@ Route::get("/team", [TeamController::class ,"index"])->name("team");
 Route::get("/gallery", [GalleryController::class ,"index"])->name("gallery");
 Route::get("/forum", [ForumController::class ,"index"])->name("forum");
 Route::get("/contact", [ContactUsController::class ,"index"])->name("contact");
+Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
+
+//technical documents
+Route::get("/technicaldocuments", [TechnicalDocumentsController::class ,"index"])->name("technicaldocuments");
+Route::post("/technicaldocuments", [TechnicalDocumentsController::class ,"upload"]);
+
 
 
 

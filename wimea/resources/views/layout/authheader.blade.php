@@ -84,16 +84,21 @@
                         <li><a href="{{ route("weatherinformation") }}">Weather Information Dissemination</a></li>
                      </ul>
                   </li>
-                  <li><a href="#">DOWNLOADS</a>
+                  <li><a href="#">FILE UPLOADS</a>
                       <ul class="dropdown">
-                        <li><a href="{{route("monthlyprogress")}}">Monthly Progress Reports</a></li>
-                        <li><a href="{{route("newsletter")}}">Newletters and Reports</a></li>
+                        <li><a href="{{route("technicaldocuments")}}">Technical Documents</a></li>
+                        <li><a href="{{route("photos")}}">Photos</a></li>
                         <li><a href="{{route("publication")}}">Publications</a></li>
                      </ul>
                   </li>
-                  <li><a href="{{route("forum")}}">FORUM</a>
-                      
-                  </li>
+                  <li><a href="#">DOWNLOADS</a>
+                    <ul class="dropdown">
+                      <li><a href="{{route("monthlyprogress")}}">Monthly Progress Reports</a></li>
+                      <li><a href="{{route("newsletter")}}">Newletters and Reports</a></li>
+                      <li><a href="{{route("publication")}}">Publications</a></li>
+                   </ul>
+                </li>
+                  
                   <li><a href="{{route("gallery")}}">GALLARY</a></li>
                   <li><a href="#">ABOUT US</a>
                       <ul class="dropdown">
