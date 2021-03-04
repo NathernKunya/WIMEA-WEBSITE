@@ -18,7 +18,7 @@ class TechnicalDocumentsController extends Controller
             'date'=>'required',
             'name'=>'required',
             'category'=>'required',
-            'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt|max:2048',
+            'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
         ]);
         //dd($request);
           $newfileName =  $request->name."_".$request->category."_".rand(1,10000);
