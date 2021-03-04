@@ -20,45 +20,17 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- responsive style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <!-- Latest compiled and minified CSS -->
 
-
-<style>
-    .form{
-         
-        place-items: center !important;
-        width: 100% !important;
-    
-    }
-    .label{
-        text-align: center;
-    
-    }
-    .button__section{
-        display: flex !important;
-        flex-direction: column !important;
-        margin: 20px;
-        cursor: pointer;
-    }
-    .button{
-        background:#1c478e !important;
-        color:#fff;
-
-    }
-    .forget{
-        color:blue
-    }
-</style>
 	</head>
     <body>
     @include("layout.header")
-    <div class="container m-5">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header text-center font-weight-bold m-2 p-4">
-                        <h2>Login</h2>
-                    </div>
-    
+    <div class="container ">
+        <di class="row ">
+        <div class="card" style="width: 60rem; margin: auto; background: lavender;padding: 30px; margin-bottom: 30px; border-radius: 10px;">
+                <div class="card-body">
+                     <h2 class="card-title">Login</h2>
+                     <div class="row-justify-content-center">
                     <div class="form">
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
@@ -91,10 +63,9 @@
                                 </div>
                             </div>
     
-                            <div class="button__section">
-                                <button type="submit" class="button">
-                                    Login
-                                </button>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success"> Login</button>
+                            </div>
                                 <div class="forget">
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
@@ -104,11 +75,11 @@
                                 </div>
                             </div>
                         </form>
+                        </div>
                     </div>
-                </div>
             </div>
-        </div>
     </div>
+</div>
     
     
 

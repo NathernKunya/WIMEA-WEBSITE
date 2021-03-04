@@ -48,7 +48,7 @@
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/bootstrap.css');
 /*----bootstrap Select ----- */
-@import url('../vendor/bootstrap-select/dist/css/bootstrap-select.css');
+/*----@import url('../vendor/bootstrap-select/dist/css/bootstrap-select.css');---*/
 /*----revolution-slider---*/
 @import url('../vendor/revolution/settings.css');
 @import url('../vendor/revolution/layers.css');
@@ -1042,7 +1042,7 @@ footer .footer-subscribe ul li a {
 }
 /*-------------------------- Inner Banner -------------------*/
 .inner-banner {
-  height: 530px;
+  height: 330px;
   margin-bottom: 100px;
 }
 .inner-banner .opacity {

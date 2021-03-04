@@ -164,7 +164,12 @@
 		</div> <!-- /.container -->
 	</div> <!-- /.service-details --> --}}
 
- <div class="row-justify-content-center">
+ 
+	
+	<div class="container">
+	<div class="row">
+	<div class="card" style="width: 60rem; margin: auto; background: lavender;padding: 30px; margin-bottom: 30px; border-radius: 10px;">
+	<div class="row-justify-content-center">
 	@if ($message = Session::get('success'))
 	<div class="alert alert-success alert-block">
 		<button type="button" class="close" data-dismiss="alert">×</button>
@@ -183,14 +188,15 @@
 			</ul>
 		</div>
 	@endif
-
+	<div class="card-body">
+	<h5 class="card-title">FORM FOR FILE UPLOAD</h5> &nbsp;
 	<form action="{{ route('technicaldocuments') }}" method="POST" enctype="multipart/form-data">
 		@csrf
-		<div class="row">
+		
 
 			<div class="form-group">
-				<label for="file">File Name</label>
-				<input type="text" name="name" 
+				<label for="file">NAME OF THE FILE</label>
+				<input type="text" name="name" placeholder="Enter file name"
 				 class="form-control @error('name') is-invalid
 				@enderror">
 				@error('name')
@@ -202,16 +208,16 @@
 			</div>
 
 			<div class="form-group ml-5">
-				<label for="file">File</label>
+				<label for="file">FILE TO UPLOAD</label>
 				<input type="file" name="file" class="form-control" 
 				
 				id="file">
 			</div>
 			<div class="form-group  ml-5">
-				<label for="" class="date">Date</label>
+				<label for="" class="date">DATE</label>
 				
 				  <input class="form-control @error('date') is-invalid
-				  @enderror" name="date" value="{{ old('date') }}" type="date" value="date">
+				  @enderror" name="date" value="{{ old('date') }}" type="date"  value="date">
 				  @error('date')
 
 				  <span class="invalid-feedback" role="alert">
@@ -223,10 +229,10 @@
 			
 
 			<div class="form-group ml-5">
-				<label for="file">category</label>
+				<label for="file">FILE CATEGORY</label>
 				  <select name="category" class="form-control  @error('date') is-invalid
 				  @enderror">
-				     <option value="">...select category...</option>
+				     <option value="">---select category---</option>
 					  <option value="rc1">RC1</option>
 					  <option value="rc2">RC2</option>
 					  <option value="rc3">RC3</option>
@@ -248,11 +254,13 @@
 
 		</div>
 	</form>
-
+</div>
+ </div>
+ </div>
  </div>
 	
 {{-- 
-	<div class="container">
+		<div class="container">
    
                <h2>Technical Documents</h2>
 	   
