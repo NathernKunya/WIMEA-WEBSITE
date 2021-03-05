@@ -811,21 +811,17 @@
          <div class="carousel-inner" role="listbox">
              <div class="item active">
                  <img src="images/icon/7.png" alt="Image">
-                   <p>I have been using Fintech for more than three years, and I love thier  service. 
-                 Their team is very helpful andskilled, and usually come up  with all the support 
-                 we needed in our entire project. I highly urge to anyone who wants to take their 
-                 service! They are Brilliant at what they do. Go with them without any doubt. We 
-                 strongly recommend the service of Fintech.</p>
-                 <h6>DON BRADMAN,  CEO,  APPLE</h6>
+                   <p>
+From the College of Computing and Information Sciences, Makerere University is the Project Coordinator 
+for the WIMEA-ICT project. She will provide the leadership in the curriculum development process as well as over all coordination for all the project components among the four partnering institutions. Dr. Sansa-Otim got her PhD on a study entitled "Measuring and Modeling the Performance of High-speed 
+Data Transport Protocols" from the University of Groningen, in the Netherlands</p>
+                 <h6>DR. JULIANNE SANSA-OTIM</h6>
              </div>	
              <div class="item">
                  <img src="images/icon/7.png" alt="Image">
-                   <p>I have been using Fintech for more than three years, and I love thier  service. 
-                 Their team is very helpful andskilled, and usually come up  with all the support 
-                 we needed in our entire project. I highly urge to anyone who wants to take their 
-                 service! They are Brilliant at what they do. Go with them without any doubt. We 
-                 strongly recommend the service of Fintech.</p>
-                 <h6>Ranl Chei,  CEO,  Unifytheme</h6>
+                   <p>An assistant lecturer at the College of Computing and Information Sciences, Makerere University, Nsabagwa has a a Bachelor of Science in Computer Science from Makerere University 
+                   and a Masters of Engineering in Computer Science and Technology from Hunan University P.R.C.</p>
+                 <h6>MS. MARY NSABAGWA</h6>
              </div>	
              <div class="item">
                  <img src="images/icon/7.png" alt="Image">
@@ -849,8 +845,8 @@
 
            <!-- Indicators -->
          <ol class="carousel-indicators">
-             <li data-target="#client-carousel" data-slide-to="0" class="active"><img src="images/home/4.jpg" alt="Image"></li>
-             <li data-target="#client-carousel" data-slide-to="1"><img src="images/home/3.jpg" alt="Image"></li>
+             <li data-target="#client-carousel" data-slide-to="0" class="active"><img src="images/home/jj3.jpg" alt="Image"></li>
+             <li data-target="#client-carousel" data-slide-to="1"><img src="images/home/ns1.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="2"><img src="images/home/2.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="3"><img src="images/home/1.jpg" alt="Image"></li>
          </ol>		

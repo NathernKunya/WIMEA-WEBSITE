@@ -35,7 +35,7 @@
     @include("layout.header")
 
 	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	style="background: url(images/inner-page/m2.jfif) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
    <div class="opacity">
@@ -97,7 +97,7 @@
 						  </div>
 						</div>
 					  </div> <!-- /panel 2 -->
-					  <div class="panel">
+					  <div class="panel"></div>
 						<div class="panel-heading">
 						  <h6 class="panel-title">
 							<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
