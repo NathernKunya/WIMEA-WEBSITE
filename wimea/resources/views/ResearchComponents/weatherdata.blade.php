@@ -49,7 +49,7 @@
 			</ul>
 
 			<div class="speach">
-				<p>DIGITIZATION AND DATA RESCUE OF MANUAL WEATHER DATA REPOSITORY
+				<p><b>DIGITIZATION AND DATA RESCUE OF MANUAL WEATHER DATA REPOSITORY</b>
 Facilitating the digitization of manual weather records (through a customized digitization programme), which is suitable for the E. African context in view of weather data management needs empirically assessed.
 
 As a data rescue strategy for Uganda, WIMEA-ICT project has initially facilitated the imaging/scanning of 6000 manually recorded paper-based weather records. This is the first stage of digitization. In 2015, WIMEA-ICT project provided digitization equipment (mobile handheld & A3 automatic document feeder/flatbed scanners). The WIMEA-ICT 
