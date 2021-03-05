@@ -6,10 +6,13 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
-class WeatherDataController extends Controller
+class docViewController extends Controller
 {
     //
     public function index(){
-        return view("ResearchComponents.weatherdata");
+        $documents = DB::table('documents')->get();
+
+        return view('ResearchComponents.weatherdata', ['documents' => $documents]);
+
     }
 }

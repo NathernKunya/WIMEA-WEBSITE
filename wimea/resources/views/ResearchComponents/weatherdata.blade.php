@@ -45,6 +45,29 @@
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
+			<table  class="table table-hover table-responsive">
+			<thead>
+				<tr>
+				<th>Id</th>
+				<th>Document Name</th>
+				<th>document link</th>
+				<th>document category</th>
+				<th>Date of creation</th>
+				</tr>
+				</thead>
+				@foreach ($documents as $user)
+				<tbody>
+				<tr>
+				<td>{{ $user->doc_Id }}</td>
+				<td>{{ $user->name }}</td>
+				<td><a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a></td>
+				<td>{{ $user->category }}</td>
+				<td>{{ $user->date }}</td>
+
+				</tr>
+				</tbody>
+				@endforeach
+				</table>
 				
 			</ul>
 

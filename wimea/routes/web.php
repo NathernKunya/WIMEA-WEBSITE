@@ -17,8 +17,10 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\docViewController;
 use App\Http\Controllers\TechnicalDocumentsController;
 use App\Http\Controllers\PhotosController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,13 +38,14 @@ Route::get('/', function () {
 });
 Route::get("/",[IndexController::class , "index"])->name("/");
 Route::get("/numericalweather", [NumericalWeatherController::class ,"index"])->name("numericalweather");
-Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weatherdata");
 Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
 Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
 
 Route::get("/editorial", [EditorialController::class ,"index"])->name("editorial");
 Route::get("/monthlyprogress", [NumericalWeatherController::class ,"index"])->name("monthlyprogress");
 Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weatherdata");
+Route::get("/weatherdata", [docViewController::class ,"index"])->name("weatherdata");
+
 Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
 Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
 Route::get("/media", [MediaController::class ,"index"])->name("media");
@@ -58,7 +61,7 @@ Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
 //technical documents
 Route::get("/technicaldocuments", [TechnicalDocumentsController::class ,"index"])->name("technicaldocuments");
 Route::post("/technicaldocuments", [TechnicalDocumentsController::class ,"upload"]);
-
+Route::get("/view_documents", [WeatherDataController::class ,"fetchDocument"]);
 
 
 
