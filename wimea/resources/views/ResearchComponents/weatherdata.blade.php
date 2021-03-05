@@ -38,86 +38,72 @@
 		style="background: url(images/inner-page/banner4.jpg) no-repeat center;
 		background-size: cover;
 		background-attachment: fixed;">
-	   <div class="opacity">
-		   <div class="container">
-			   <div class="wrapper">
-				   <div class="title">
-					   <ul>
-						   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-						   <li><i class="icon flaticon-right"></i></li>
-						   <li><a href="index-2.html" class="tran3s">Service</a></li>
-						   <li><i class="icon flaticon-right"></i></li>
-						   <li>MARKET RESEARCH</li>
-					   </ul>
-					   <h2>MARKET RESEARCH</h2>
-				   </div> <!-- /.title -->
-			   </div> <!-- /.wrapper -->
-		   </div> <!-- /.container -->
-	   </div> <!-- /.opacity -->
    </div> <!-- /.inner-banner -->
 		<div class="container">
 			<div class="theme-title">
-				<h2>Business Deal with Apple, Inc</h2>
+				<h2>WEATHER DATA REPOSITORIES</h2>
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
-				<li>
-					<p>CLIENT</p>
-					<h6>Apple, Inc</h6>
-				</li>
-				<li>
-					<p>SERVICES</p>
-					<h6>Market Research</h6>
-				</li>
-				<li>
-					<p>DATE</p>
-					<h6>February 27, 2017</h6>
-				</li>
-				<li>
-					<p>WEBSITE</p>
-					<a href="#">www.appleinc.com</a>
-				</li>
+				
 			</ul>
 
 			<div class="speach">
-				<p>It was an important business dealing. Because of this deal, our market share has been
-				increased by 23%. We would highly recommend FinTech to any who needs help with
-				Market research. I highly recommend.Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy</p>
+				<p>DIGITIZATION AND DATA RESCUE OF MANUAL WEATHER DATA REPOSITORY
+Facilitating the digitization of manual weather records (through a customized digitization programme), which is suitable for the E. African context in view of weather data management needs empirically assessed.
+
+As a data rescue strategy for Uganda, WIMEA-ICT project has initially facilitated the imaging/scanning of 6000 manually recorded paper-based weather records. This is the first stage of digitization. In 2015, WIMEA-ICT project provided digitization equipment (mobile handheld & A3 automatic document feeder/flatbed scanners). The WIMEA-ICT 
+team trained and supervised the digitization exercise at the Uganda National Meteorological Authority (UNMA).</p>
 				<div class="text-right">
 					<div class="text-left">
-						<h6>Steve Jark</h6>
-						<span>CEO, Apple, Inc</span>
+						<h6>ANDREW MWESIGWA</h6>
+						<span>PhD STUDENT</span>
 					</div>
 				</div>
 			</div> <!-- /.speach -->
-			<img src="images/project/21.jpg" alt="Image">
+			<!-- <img src="images/project/21.jpg" alt="Image"> -->
 
 			<div class="details-tab-wrapper">
 				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Challenge</a></li>
-					<li><a data-toggle="tab" href="#menu1">Solution</a></li>
-					<li><a data-toggle="tab" href="#menu2">Result</a></li>
+					<li class="active"><a data-toggle="tab" href="#home">WDR DESIGN</a></li>
+					<li><a data-toggle="tab" href="#menu1">RC2 RESEARCH</a></li>
+					<li><a data-toggle="tab" href="#menu2">TEAM</a></li>
+					<li><a data-toggle="tab" href="#menu3">BENCHMARKING</a></li>
 				</ul>
 
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
+						<p>WIMEA-ICT WEATHER DATA REPOSITORY DESIGN
+Design, install and commission customized Weather Data Repository (WDR) software package that integrates digitized old manual and formally scattered weather data, current manually observed data, and data from automatic weather stations being designed by RC3. The WDR will provide real time weather data as input into Research Component 1 to facilitate weather forecasting/climate modeling and into RC4’s designed weather dissemination systems.
+ Link to the web version of the WDR beta version: <a href="http://wimea.mak.ac.ug/wdr/" target="blank">http://wimea.mak.ac.ug/wdr </a></p>
 					</div>
 					  <div id="menu1" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
+					  <p>Research part of RC2:
+Sustainability, resilience and feasibility investigation of the requirements of integration and management of digital weather data management systems.
+
+This PhD study will explore issues dealing with resource, capacity and organisational change requirements for the digitization transition and sustaining digital weather data management systems. Study results in form of a computer-based dynamic simulation model to provide a guide to policy makers in meteorological agencies and related</p>
 					  </div>
 					<div id="menu2" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
+						<p>Team:
+						<ul>
+						<li>Dr. Agnes Rwashana Semwanga (Mak)</li>
+						<li>Mr. Andrew Mwesigwa (Mak)</li>
+						<li>Mr. Daudi Mboma (DIT)</li>
+						<li>Dr. Julianne Sansa (PI, Mak)</li>
+						<li>Prof. Dr. Joachim Reuder (UiB)</li>
+						<li>Miss. Martha Nakuwanda</li>
+						</ul>
+</p>					
 					</div>
+					<div id="menu3" class="tab-pane fade">
+					  <p>
+					  Benchmarking on digitization of weather data
+A benchmarking visit to the University of Nairobi and the Kenya Meteorological Department revealed a need for other East African meteorological agencies (stakeholders of the WIMEA-ICT project) to benchmark and revisit their workflow processes for manual data digitisation. And Repository requirements for a customized weather data repository. Link to
+
+
+					  </p>
+					  <p>WIMEA-ICT project carried out a survey, which revealed the urgent need to digitize the fast-deteroriating paper-based old weather records and those, which are presently manually observed and recorded on paper and stored in the weather archives. Link to</p>
+					  </div>
 				</div>
 			</div> <!-- /.details-tab-wrapper -->
 		</div>
