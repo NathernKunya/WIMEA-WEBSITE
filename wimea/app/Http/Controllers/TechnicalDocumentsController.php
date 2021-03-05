@@ -13,36 +13,51 @@ class TechnicalDocumentsController extends Controller
         return view("Uploads.technicaldocuments");
     }
     public function upload(Request $request)
-    {
-        $request->validate([
-            'date'=>'required',
-            'name'=>'required',
-            'category'=>'required',
-            'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
-        ]);
-        //dd($request);
-          $newfileName =  $request->name."_".$request->category."_".rand(1,10000);
-        $fileName = $newfileName.'.'.$request->file->extension();  
-   
-        $moved = $request->file->move(public_path('uploads'), $fileName);
+    {  
+
+        if($request->hasfile("file")){
+            foreach($request->file("file") as $fileName){
+                $request->validate([
+                    'date'=>'required',
+                    'name'=>'required',
+                    'category'=>'required',
+                    // 'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
+                ]);
+                
+                $originalfileName = $fileName->getClientOriginalName();
+                $explode =explode(".", $originalfileName);
+                $ext = end($explode);
+                //$extension = $request->$fileName->extension();
+               //dd($ext);
+
+
+        $newfileName =  $request->name."_".$request->category."_".rand(1,10000).'.'.$ext;
+       // dd($newfileName);
+        
+        $moved =  $fileName->move(public_path('uploads'), $newfileName);
+        //$file->move(public_path() . '/mytestfile/', $name);
         if($moved){
             $inserted = DB::insert('insert into documents (name, date, category ,document) 
-            values (?, ?,?,?)', [$request->name , $request->date, $request->category , $fileName]);
+            values (?, ?,?,?)', [$request->name , $request->date, $request->category , $newfileName]);
             if($inserted){
                      return back()->with('success','You have successfully upload file.');
         
-
             }
-        }
-        else{
+                else{
             return back()->with('error','file to upload file.');
         } 
+   
+        }
+
+
+            }
+
+        }
+        
    
 
    
    
     }
-    // public function upload(Request $request){
-    //     dd($request->file);
-    // }
+
 }
