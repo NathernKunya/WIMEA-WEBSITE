@@ -35,7 +35,7 @@
     @include("layout.header")
     <div class="project-details">
 		<div class="inner-banner"
-		style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+		style="background: url(images/project/wdr.jpg) no-repeat center;
 		background-size: cover;
 		background-attachment: fixed;">
    </div> <!-- /.inner-banner -->
@@ -61,7 +61,7 @@ team trained and supervised the digitization exercise at the Uganda National Met
 					</div>
 				</div>
 			</div> <!-- /.speach -->
-			<!-- <img src="images/project/21.jpg" alt="Image"> -->
+			<img src="images/project/img1.jpg"  alt="Image">
 
 			<div class="details-tab-wrapper">
 				<ul class="nav nav-tabs">
@@ -107,8 +107,83 @@ A benchmarking visit to the University of Nairobi and the Kenya Meteorological D
 				</div>
 			</div> <!-- /.details-tab-wrapper -->
 		</div>
+		
 	</div> <!-- /.project-details -->
-	
+	<!--
+=============================================
+ Feature Work
+==============================================
+-->
+<div class="feature-work">
+ <div class="container">
+     <div class="theme-title text-center">
+         <h2>Featured Work</h2>
+     </div> <!-- /.theme-title -->
+
+     <ul class="isotop-menu-wrapper text-center">
+         <li class="is-checked tran3s" data-filter="*">All</li>
+         <li class="tran3s" data-filter=".strategy">Design</li>
+         <li class="tran3s" data-filter=".tax">Benchmarking</li>
+         <li class="tran3s" data-filter=".research">Research</li>
+         <li class="tran3s" data-filter=".payroll">Archives</li>
+     </ul>
+
+
+     <div id="isotop-gallery-wrapper" class="row">
+         <div class="grid-sizer"></div>
+         <div class="isotop-item strategy">
+             <div class="single-item">
+                 <img src="images/project/wdr1.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr1.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item research payroll tax strategy">
+             <div class="single-item">
+                 <img src="images/project/wdr2.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr2.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax strategy">
+             <div class="single-item">
+                 <img src="images/project/wdr7.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr7.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax strategy">
+             <div class="single-item">
+                 <img src="images/project/wdr4.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr4.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax payroll research">
+             <div class="single-item">
+                 <img src="images/project/wdr5.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr5.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/wdr6.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/wdr6.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+     </div> <!-- /#isotop-gallery-wrapper -->
+ </div> <!-- /.container -->
+</div> <!-- /.feature-work -->
+
+
 	
 
 

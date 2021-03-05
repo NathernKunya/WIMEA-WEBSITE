@@ -35,32 +35,16 @@
     @include("layout.header")
 
 	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	style="background: url(images/project/img2.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
 </div> <!-- /.inner-banner -->
 
 
     <div class="project-details">
 		<div class="container">
 			<div class="theme-title">
-				<h2>Business Deal with Apple, Inc</h2>
+				<h2>WEATHER STATION NETWORK DENSITY</h2>
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
