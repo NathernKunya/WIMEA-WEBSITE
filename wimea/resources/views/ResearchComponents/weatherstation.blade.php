@@ -48,50 +48,41 @@
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
-				<li>
-					<p>CLIENT</p>
-					<h6>Apple, Inc</h6>
-				</li>
-				<li>
-					<p>SERVICES</p>
-					<h6>Market Research</h6>
-				</li>
-				<li>
-					<p>DATE</p>
-					<h6>February 27, 2017</h6>
-				</li>
-				<li>
-					<p>WEBSITE</p>
-					<a href="#">www.appleinc.com</a>
-				</li>
 			</ul>
 
 			<div class="speach">
-				<p>It was an important business dealing. Because of this deal, our market share has been
-				increased by 23%. We would highly recommend FinTech to any who needs help with
-				Market research. I highly recommend.Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy</p>
-				<div class="text-right">
+			<p>RC3 held a meeting from 29th August to 2nd September in Kampala. The meeting was attended by all partner Universities. 
+			The meeting was also graced by the presence of UNMA, which is the main stakeholders of the AWS.</p>
+			<div class="text-right">
 					<div class="text-left">
-						<h6>Steve Jark</h6>
-						<span>CEO, Apple, Inc</span>
+						<h6>MARY NSABAGWA</h6>
+						<span>WIMEA-ICT</span>
 					</div>
 				</div>
 			</div> <!-- /.speach -->
-			<img src="images/project/21.jpg" alt="Image">
+			<img src="images/project/img2.jpg" alt="Image">
 
 			<div class="details-tab-wrapper">
 				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Challenge</a></li>
+					<li class="active"><a data-toggle="tab" href="#home">DAY ONE</a></li>
 					<li><a data-toggle="tab" href="#menu1">Solution</a></li>
 					<li><a data-toggle="tab" href="#menu2">Result</a></li>
 				</ul>
 
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
+					<ul><b><p>Day 1: Research and AWS Development</p></b>
+					<li>Installation of Gen 2 Nodes and Setting up of Uplinks</li>
+					<li>Installation of Gen 2 Nodes and Uplinks</li>
+					<li>Presentation of Achievements and plans. See presentation</li>
+					<li>General Discussion of Progress</li>
+					
+
+
+
+
+
+					</ul>
 					</div>
 					  <div id="menu1" class="tab-pane fade">
 						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
@@ -110,7 +101,108 @@
 		</div>
 	</div> <!-- /.project-details -->
 	
-	
+<div class="feature-work">
+ <div class="container">
+     <div class="theme-title text-center">
+         <h2>Featured Work</h2>
+     </div> <!-- /.theme-title -->
+
+     <ul class="isotop-menu-wrapper text-center">
+         <li class="is-checked tran3s" data-filter="*">All</li>
+         <li class="tran3s" data-filter=".strategy">Design</li>
+         <li class="tran3s" data-filter=".tax">Benchmarking</li>
+         <li class="tran3s" data-filter=".research">Research</li>
+         <li class="tran3s" data-filter=".payroll">Archives</li>
+     </ul>
+
+
+     <div id="isotop-gallery-wrapper" class="row">
+         <div class="grid-sizer"></div>
+         <div class="isotop-item strategy">
+             <div class="single-item">
+                 <img src="images/project/rc31.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc31.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item research payroll tax strategy">
+             <div class="single-item">
+                 <img src="images/project/rc32.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc32.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax strategy">
+             <div class="single-item">
+                 <img src="images/project/rc33.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc33.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax strategy">
+             <div class="single-item">
+                 <img src="images/project/rc34.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc34.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item tax payroll research">
+             <div class="single-item">
+                 <img src="images/project/rc35.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc35.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+         <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/rc36.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc36.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> <!-- /.isotop-item -->
+		 <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/rc37.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc37.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> 
+		 <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/rc38.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc38.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> 
+		 <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/rc39.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc39.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> 
+		 <div class="isotop-item strategy payroll tax">
+             <div class="single-item">
+                 <img src="images/project/rc310.jpg" alt="Image">
+                 <div class="hover tran4s">
+                     <a href="images/project/rc310.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                 </div>
+             </div> <!-- /.single-item -->
+         </div> 
+     </div> <!-- /#isotop-gallery-wrapper -->
+ </div> <!-- /.container -->
+</div> <!-- /.feature-work -->
+
+
 
 
 
