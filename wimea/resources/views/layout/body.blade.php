@@ -825,12 +825,12 @@ Data Transport Protocols" from the University of Groningen, in the Netherlands</
              </div>	
              <div class="item">
                  <img src="images/icon/7.png" alt="Image">
-                   <p>I have been using Fintech for more than three years, and I love thier  service. 
-                 Their team is very helpful andskilled, and usually come up  with all the support 
-                 we needed in our entire project. I highly urge to anyone who wants to take their 
-                 service! They are Brilliant at what they do. Go with them without any doubt. We 
-                 strongly recommend the service of Fintech.</p>
-                 <h6>Jesika Ande,  CEO,  Tata</h6>
+                   <p>
+                   ISAAC did an MBA at Makerere University with the intention to boost his administration 
+                   and managerial skills. In August 2010, Uganda Meteorology department offered him a scholarship to China to study a M.Sc. in Meteorology at Lijun University of Information Science and Technology, 
+                   where he completed in April 2012 and was re-deployed back to Uganda in the Department of Meteorology
+                   </p>
+                 <h6>ISAAC MUGUME</h6>
              </div>	
              <div class="item">
                    <img src="images/icon/7.png" alt="Image">
@@ -847,7 +847,7 @@ Data Transport Protocols" from the University of Groningen, in the Netherlands</
          <ol class="carousel-indicators">
              <li data-target="#client-carousel" data-slide-to="0" class="active"><img src="images/home/jj3.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="1"><img src="images/home/ns1.jpg" alt="Image"></li>
-             <li data-target="#client-carousel" data-slide-to="2"><img src="images/home/2.jpg" alt="Image"></li>
+             <li data-target="#client-carousel" data-slide-to="2"><img src="images/home/isaac1.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="3"><img src="images/home/1.jpg" alt="Image"></li>
          </ol>		
      </div> <!-- /#client-carousel -->
