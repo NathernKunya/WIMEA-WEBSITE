@@ -19,10 +19,10 @@
                     <li><i class="fa fa-envelope-o" aria-hidden="true"></i> wimeaict@gmail.com</li>
                 </ul>
                 <ul class="float-right">
-                    
+
                     <li><a href="https://www.facebook.com/wimeaict" target="blank" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="https://www.twitter.com/wimeaict" target="blank" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    
+
                 </ul>
             </div>
         </div> <!-- /.top-header -->
@@ -73,7 +73,7 @@
                       <ul class="dropdown">
                         <li><a href="{{route("editorial")}}">EDITORIALS</a></li>
                         <li><a href="{{route("media")}}">IN MEDIA</a></li>
-                        
+
                      </ul>
                   </li>
                   <li><a href="#">RESEARCH COMPONENTS</a>
@@ -84,7 +84,7 @@
                         <li><a href="{{ route("weatherinformation") }}">Weather Information Dissemination</a></li>
                      </ul>
                   </li>
-                  <li><a href="#">FILE UPLOADS</a>
+                  <li><a href="#">UPLOAD FILES</a>
                       <ul class="dropdown">
                         <li><a href="{{route("technicaldocuments")}}">Technical Documents</a></li>
                         <li><a href="{{route("photos")}}">Photos</a></li>
@@ -98,16 +98,16 @@
                       <li><a href="{{route("publication")}}">Publications</a></li>
                    </ul>
                 </li>
-                  
+
                   <li><a href="{{route("gallery")}}">GALLARY</a></li>
                   <li><a href="#">ABOUT US</a>
                       <ul class="dropdown">
                         <li><a href="{{route("team")}}">Our Team</a></li>
                         <li><a href="{{route("intern")}}">Interns</a></li>
-                        
+
                      </ul>
                   </li>
-                  
+
                   <li>
                     <a class="dropdown-item" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
@@ -119,8 +119,8 @@
                      @csrf
                  </form>
                   </li>
-                  
-                  
+
+
 
 
                   <li class="float-right search-box">

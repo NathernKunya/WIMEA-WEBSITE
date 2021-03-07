@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -38,49 +38,176 @@
 	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
 </div> <!-- /.inner-banner -->
-    
+
 
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('Dashboard') }}</div>
-    
+                    {{-- <div class="card-header">{{ __('Dashboard') }}</div> --}}
+
                     <div class="card-body">
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
                                 {{ session('status') }}
                             </div>
                         @endif
-    
-                        {{ __('You are logged in!') }}
+                        <button type="button" class="alert alert-success" data-dismiss="alert"><strong>{{ __('You have successfully login to your account!') }}</strong></button>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-        
-    
+    <br>
+	<div class="contact-nav container">
+		<ul class="clearfix nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#los" class="tran3s">LOS ANGELES</a></li>
+			<li><a data-toggle="tab" href="#new" class="tran3s">NEW YORK</a></li>
+			<li><a data-toggle="tab" href="#texas" class="tran3s">TEXAS</a></li>
+			<li><a data-toggle="tab" href="#honululu" class="tran3s">HONOLULU</a></li>
+		</ul>
+	</div>
+
+	<div class="contact-address tab-content">
+		<div class="container tab-pane fade in active" id="los">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 hidden-sm hidden-xs"><img src="images/inner-page/12.jpg" alt=""></div>
+				<div class="col-lg-5 col-md-5 col-xs-12">
+					<div>
+						<img src="images/inner-page/13.jpg" alt="">
+						<div class="opacity">
+							<div class="theme-title">
+								<h2>OUR CONTACT</h2>
+							</div> <!-- /.theme-title -->
+							<ul>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1010, Mountain view <br> North Pole, LA, CA</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +1 202 245 3062</li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="http://themazine.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d1b8bfb7be91b7b8bfa5b4b2b9ffb2bebc">[email&#160;protected]</a></li>
+							</ul>
+						</div> <!-- /.opacity -->
+					</div>
+				</div> <!-- /.col- -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		<div class="container tab-pane fade" id="new">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 hidden-sm hidden-xs"><img src="images/inner-page/12.jpg" alt=""></div>
+				<div class="col-lg-5 col-md-5 col-xs-12">
+					<div>
+						<img src="images/inner-page/13.jpg" alt="">
+						<div class="opacity">
+							<div class="theme-title">
+								<h2>OUR CONTACT</h2>
+							</div> <!-- /.theme-title -->
+							<ul>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1010, Mountain view <br> North Pole, LA, CA</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +1 202 245 3062</li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="http://themazine.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6a03040c052a0c03041e0f090244090507">[email&#160;protected]</a></li>
+							</ul>
+						</div> <!-- /.opacity -->
+					</div>
+				</div> <!-- /.col- -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		<div class="container tab-pane fade" id="texas">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 hidden-sm hidden-xs"><img src="images/inner-page/12.jpg" alt=""></div>
+				<div class="col-lg-5 col-md-5 col-xs-12">
+					<div>
+						<img src="images/inner-page/13.jpg" alt="">
+						<div class="opacity">
+							<div class="theme-title">
+								<h2>OUR CONTACT</h2>
+							</div> <!-- /.theme-title -->
+							<ul>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1010, Mountain view <br> North Pole, LA, CA</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +1 202 245 3062</li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="http://themazine.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8ae3e4ece5caece3e4feefe9e2a4e9e5e7">[email&#160;protected]</a></li>
+							</ul>
+						</div> <!-- /.opacity -->
+					</div>
+				</div> <!-- /.col- -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		<div class="container tab-pane fade" id="honululu">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 hidden-sm hidden-xs"><img src="images/inner-page/12.jpg" alt=""></div>
+				<div class="col-lg-5 col-md-5 col-xs-12">
+					<div>
+						<img src="images/inner-page/13.jpg" alt="">
+						<div class="opacity">
+							<div class="theme-title">
+								<h2>OUR CONTACT</h2>
+							</div> <!-- /.theme-title -->
+							<ul>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1010, Mountain view <br> North Pole, LA, CA</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +1 202 245 3062</li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="http://themazine.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e78e898188a7818e899382848fc984888a">[email&#160;protected]</a></li>
+							</ul>
+						</div> <!-- /.opacity -->
+					</div>
+				</div> <!-- /.col- -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /.contact-address -->
+
+
+	<!-- Contact Form -->
+	<div class="contact-form-holder container">
+		<div class="row">
+			<form action="http://themazine.com/html/fin-tech/inc/sendemail.php" class="form-validation" autocomplete="off">
+				<div class="col-sm-6 col-xs-12">
+					<div class="single-input-group">
+						<input type="text" placeholder="First Name" name="Fname">
+					</div> <!-- /.single-input-group -->
+				</div> <!-- /.col- -->
+				<div class="col-sm-6 col-xs-12">
+					<div class="single-input-group">
+						<input type="text" placeholder="Last Name" name="Lname">
+					</div> <!-- /.single-input-group -->
+				</div> <!-- /.col- -->
+				<div class="col-sm-6 col-xs-12">
+					<div class="single-input-group">
+						<input type="email" placeholder="Email" name="email">
+					</div> <!-- /.single-input-group -->
+				</div> <!-- /.col- -->
+				<div class="col-sm-6 col-xs-12">
+					<div class="single-input-group">
+						<input type="text" placeholder="Phone" name="phone">
+					</div> <!-- /.single-input-group -->
+				</div> <!-- /.col- -->
+				<div class="col-xs-12">
+					<textarea placeholder="Write Message" name="message"></textarea>
+					<button class="tran3s">send</button>
+				</div> <!-- /.col- -->
+			</form>
+		</div> <!-- /.row -->
+		<!--Contact Form Validation Markup -->
+		<!-- Contact alert -->
+		<div class="alert-wrapper" id="alert-success">
+			<div id="success">
+				<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				<div class="wrapper">
+					   <p>Your message was sent successfully.</p>
+				 </div>
+			</div>
+		</div> <!-- End of .alert_wrapper -->
+		<div class="alert-wrapper" id="alert-error">
+			<div id="error">
+				   <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				   <div class="wrapper">
+					   <p>Sorry!Something Went Wrong.</p>
+				</div>
+			</div>
+		</div> <!-- End of .alert_wrapper -->
+	</div> <!-- /.contact-form-holder -->
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -114,7 +241,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 
