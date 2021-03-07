@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -45,37 +45,19 @@
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
-			<table  class="table table-hover table-responsive">
-			<thead>
-				<tr>
-				<th>Id</th>
-				<th>Document Name</th>
-				<th>document link</th>
-				<th>document category</th>
-				<th>Date of creation</th>
-				</tr>
-				</thead>
-				@foreach ($documents as $user)
-				<tbody>
-				<tr>
-				<td>{{ $user->doc_Id }}</td>
-				<td>{{ $user->name }}</td>
-				<td><a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a></td>
-				<td>{{ $user->category }}</td>
-				<td>{{ $user->date }}</td>
+                <h3>DOCUMENTS</h3><br>
+                @foreach ($documents as $user)
+               <li> <a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a><br></li>
+                @endforeach
+			{{--  --}}
 
-				</tr>
-				</tbody>
-				@endforeach
-				</table>
-				
 			</ul>
 
 			<div class="speach">
 				<p><b>DIGITIZATION AND DATA RESCUE OF MANUAL WEATHER DATA REPOSITORY</b>
 Facilitating the digitization of manual weather records (through a customized digitization programme), which is suitable for the E. African context in view of weather data management needs empirically assessed.
 
-As a data rescue strategy for Uganda, WIMEA-ICT project has initially facilitated the imaging/scanning of 6000 manually recorded paper-based weather records. This is the first stage of digitization. In 2015, WIMEA-ICT project provided digitization equipment (mobile handheld & A3 automatic document feeder/flatbed scanners). The WIMEA-ICT 
+As a data rescue strategy for Uganda, WIMEA-ICT project has initially facilitated the imaging/scanning of 6000 manually recorded paper-based weather records. This is the first stage of digitization. In 2015, WIMEA-ICT project provided digitization equipment (mobile handheld & A3 automatic document feeder/flatbed scanners). The WIMEA-ICT
 team trained and supervised the digitization exercise at the Uganda National Meteorological Authority (UNMA).</p>
 				<div class="text-right">
 					<div class="text-left">
@@ -116,7 +98,7 @@ This PhD study will explore issues dealing with resource, capacity and organisat
 						<li>Prof. Dr. Joachim Reuder (UiB)</li>
 						<li>Miss. Martha Nakuwanda</li>
 						</ul>
-</p>					
+</p>
 					</div>
 					<div id="menu3" class="tab-pane fade">
 					  <p>
@@ -130,7 +112,7 @@ A benchmarking visit to the University of Nairobi and the Kenya Meteorological D
 				</div>
 			</div> <!-- /.details-tab-wrapper -->
 		</div>
-		
+
 	</div> <!-- /.project-details -->
 	<!--
 =============================================
@@ -207,15 +189,15 @@ A benchmarking visit to the University of Nairobi and the Kenya Meteorological D
 </div> <!-- /.feature-work -->
 
 
-	
+
 
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -249,7 +231,7 @@ A benchmarking visit to the University of Nairobi and the Kenya Meteorological D
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

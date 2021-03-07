@@ -38,6 +38,7 @@ Route::get('/', function () {
 });
 Route::get("/",[IndexController::class , "index"])->name("/");
 Route::get("/numericalweather", [NumericalWeatherController::class ,"index"])->name("numericalweather");
+Route::get("/numericalweather", [docViewController::class ,"rc1"])->name("numericalweather");
 Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
 Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
 
@@ -47,7 +48,9 @@ Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weath
 Route::get("/weatherdata", [docViewController::class ,"index"])->name("weatherdata");
 
 Route::get("/weatherinformation", [WeatherInformationController::class ,"index"])->name("weatherinformation");
+Route::get("/weatherinformation", [docViewController::class ,"rc4"])->name("weatherinformation");
 Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
+Route::get("/weatherstation", [docViewController::class ,"rc3"])->name("weatherstation");
 Route::get("/media", [MediaController::class ,"index"])->name("media");
 Route::get("/newsletter", [NewsletterController::class ,"index"])->name("newsletter");
 Route::get("/publication", [PublicationController::class ,"index"])->name("publication");

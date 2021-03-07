@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -48,10 +48,16 @@
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
+                <h3>DOCUMENTS</h3><br>
+                @foreach ($documents as $user)
+               <li> <a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a><br></li>
+                @endforeach
+			{{--  --}}
+
 			</ul>
 
 			<div class="speach">
-			<p>RC3 held a meeting from 29th August to 2nd September in Kampala. The meeting was attended by all partner Universities. 
+			<p>RC3 held a meeting from 29th August to 2nd September in Kampala. The meeting was attended by all partner Universities.
 			The meeting was also graced by the presence of UNMA, which is the main stakeholders of the AWS.</p>
 			<div class="text-right">
 					<div class="text-left">
@@ -76,7 +82,7 @@
 					<li>Installation of Gen 2 Nodes and Uplinks</li>
 					<li>Presentation of Achievements and plans. See presentation</li>
 					<li>General Discussion of Progress</li>
-					
+
 
 
 
@@ -100,7 +106,7 @@
 			</div> <!-- /.details-tab-wrapper -->
 		</div>
 	</div> <!-- /.project-details -->
-	
+
 <div class="feature-work">
  <div class="container">
      <div class="theme-title text-center">
@@ -173,7 +179,7 @@
                      <a href="images/project/rc37.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
                  </div>
              </div> <!-- /.single-item -->
-         </div> 
+         </div>
 		 <div class="isotop-item strategy payroll tax">
              <div class="single-item">
                  <img src="images/project/rc38.jpg" alt="Image">
@@ -181,7 +187,7 @@
                      <a href="images/project/rc38.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
                  </div>
              </div> <!-- /.single-item -->
-         </div> 
+         </div>
 		 <div class="isotop-item strategy payroll tax">
              <div class="single-item">
                  <img src="images/project/rc39.jpg" alt="Image">
@@ -189,7 +195,7 @@
                      <a href="images/project/rc39.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
                  </div>
              </div> <!-- /.single-item -->
-         </div> 
+         </div>
 		 <div class="isotop-item strategy payroll tax">
              <div class="single-item">
                  <img src="images/project/rc310.jpg" alt="Image">
@@ -197,7 +203,7 @@
                      <a href="images/project/rc310.jpg" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
                  </div>
              </div> <!-- /.single-item -->
-         </div> 
+         </div>
      </div> <!-- /#isotop-gallery-wrapper -->
  </div> <!-- /.container -->
 </div> <!-- /.feature-work -->
@@ -207,10 +213,10 @@
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -244,7 +250,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

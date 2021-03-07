@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -47,22 +47,12 @@
 			</div> <!-- /.theme-title -->
 
 			<ul class="project-info clearfix">
-				<li>
-					<p>CLIENT</p>
-					<h6>Apple, Inc</h6>
-				</li>
-				<li>
-					<p>SERVICES</p>
-					<h6>Market Research</h6>
-				</li>
-				<li>
-					<p>DATE</p>
-					<h6>February 27, 2017</h6>
-				</li>
-				<li>
-					<p>WEBSITE</p>
-					<a href="#">www.appleinc.com</a>
-				</li>
+                <h3>DOCUMENTS</h3><br>
+                @foreach ($documents as $user)
+               <li> <a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a><br></li>
+                @endforeach
+			{{--  --}}
+
 			</ul>
 
 			<div class="speach">
@@ -108,16 +98,16 @@
 			</div> <!-- /.details-tab-wrapper -->
 		</div>
 	</div> <!-- /.project-details -->
-	
-	
+
+
 
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -151,7 +141,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 
