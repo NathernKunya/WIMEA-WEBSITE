@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -33,13 +33,18 @@
 	</head>
     <body>
     @include("layout.header")
-    <h1>monthlyprogress</h1>
+    <div class="inner-banner"
+	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;">
+</div> <!-- /.inner-banner -->
+    {{-- <h1>monthlyprogress</h1> --}}
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -73,7 +78,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

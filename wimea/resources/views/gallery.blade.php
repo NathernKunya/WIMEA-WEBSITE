@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -33,124 +33,48 @@
 	</head>
     <body>
     @include("layout.header")
+    <div class="project-details">
+		<div class="inner-banner"
+		style="background: url(images/project/wdr.jpg) no-repeat center;
+		background-size: cover;
+		background-attachment: fixed;">
+   </div> <!-- /.inner-banner -->
+    </div>
+	<div class="feature-work">
+        <div class="container">
+            <div class="theme-title text-center">
+                <h2>OUR GALLERY</h2>
+            </div> <!-- /.theme-title -->
 
-	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
-	background-size: cover;
-	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
-</div> <!-- /.inner-banner -->
-    <div class="project-section project-grid">
-		<div class="container">
-			<ul class="isotop-menu-wrapper text-center">
-				<li class="is-checked tran3s" data-filter="*">All</li>
-				<li class="tran3s" data-filter=".strategy">BUSINESS PLANNING</li>
-				<li class="tran3s" data-filter=".tax">MARKETING PLANNING</li>
-				<li class="tran3s" data-filter=".research">TAXATION SERVICES</li>
-				<li class="tran3s" data-filter=".payroll">MARKET RESEARCH</li>
-			</ul>
+            <ul class="isotop-menu-wrapper text-center">
+                <li class="is-checked tran3s" data-filter="*">All</li>
+            </ul>
 
 
-			<div id="isotop-gallery-wrapper" class="row">
-				<div class="grid-sizer"></div>
-				<div class="isotop-item strategy">
-					<div class="single-item">
-						<img src="images/project/7.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">BUSINESS PLANNING</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-				<div class="isotop-item research payroll tax strategy">
-					<div class="single-item">
-						<img src="images/project/8.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">TAXATION SERVICES</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-				<div class="isotop-item research">
-					<div class="single-item">
-						<img src="images/project/9.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">MARKETING PLANNING</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-				<div class="isotop-item tax strategy">
-					<div class="single-item">
-						<img src="images/project/10.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">MARKET RESEARCH</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-				<div class="isotop-item tax payroll research">
-					<div class="single-item">
-						<img src="images/project/11.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">MARKETING PLANNING</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-				<div class="isotop-item strategy payroll tax">
-					<div class="single-item">
-						<img src="images/project/12.jpg" alt="Image">
-						<div class="hover tran3s">
-							<div class="wrapper">
-								<span class="tran4s"></span>
-								<h6 class="tran4s"><a href="project-details.html" class="tran3s">Business Deal with Apple,inc</a></h6>
-								<p class="tran4s">TAXATION SERVICES</p>
-							</div> <!-- /.wrapper -->
-						</div> <!-- /.hover -->
-					</div> <!-- /.single-item -->
-				</div> <!-- /.isotop-item -->
-			</div> <!-- /#isotop-gallery-wrapper -->
-		</div> <!-- /.container -->
-	</div> <!-- /.project-section  -->
+            <div id="isotop-gallery-wrapper" class="row">
+                <div class="grid-sizer"></div>
+                @foreach ($photos as $photo)
 
+                <div class="isotop-item strategy col-md-4" >
+                    <div class="single-item">
+                        <img src="uploads/{{ $photo->document  }}" class="center-block" alt="Image">
+                        <div class="hover tran4s">
+                            <a href="uploads/{{ $photo->document  }}" class="fancybox"><img src="images/icon/5.png" alt="Image"></a>
+                        </div>
+                    </div> <!-- /.single-item -->
+                </div> <!-- /.isotop-item -->
+                @endforeach
+            </div> <!-- /#isotop-gallery-wrapper -->
+
+        </div> <!-- /.container -->
+       </div> <!-- /.feature-work -->
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -184,7 +108,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

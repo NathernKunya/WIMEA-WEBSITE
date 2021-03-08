@@ -43,7 +43,7 @@ Route::get("/weatherinformation", [WeatherInformationController::class ,"index"]
 Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name("weatherstation");
 
 Route::get("/editorial", [EditorialController::class ,"index"])->name("editorial");
-Route::get("/monthlyprogress", [NumericalWeatherController::class ,"index"])->name("monthlyprogress");
+Route::get("/monthlyprogress", [MonthlyProgressController::class ,"index"])->name("monthlyprogress");
 Route::get("/weatherdata", [WeatherDataController::class ,"index"])->name("weatherdata");
 Route::get("/weatherdata", [docViewController::class ,"index"])->name("weatherdata");
 
@@ -57,6 +57,7 @@ Route::get("/publication", [PublicationController::class ,"index"])->name("publi
 Route::get("/intern", [InternController::class ,"index"])->name("intern");
 Route::get("/team", [TeamController::class ,"index"])->name("team");
 Route::get("/gallery", [GalleryController::class ,"index"])->name("gallery");
+Route::get("/gallery", [PhotosController::class ,"allphotos"])->name("gallery");
 Route::get("/forum", [ForumController::class ,"index"])->name("forum");
 Route::get("/contact", [ContactUsController::class ,"index"])->name("contact");
 Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
@@ -65,6 +66,7 @@ Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
 //technical documents
 Route::get("/technicaldocuments", [TechnicalDocumentsController::class ,"index"])->name("technicaldocuments");
 Route::post("/technicaldocuments", [TechnicalDocumentsController::class ,"upload"]);
+Route::post("/photos", [PhotosController::class ,"upload"]);
 Route::get("/view_documents", [WeatherDataController::class ,"fetchDocument"]);
 
 
