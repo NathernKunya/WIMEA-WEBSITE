@@ -50,7 +50,7 @@
 			<ul class="project-info clearfix">
                 <h3>DOCUMENTS</h3><br>
                 @foreach ($documents as $user)
-               <li> <a href="uploads/{{ $user->document  }} " target="blank"> {{ $user->document  }}</a><br></li>
+               <li> <a href="uploads/{{ $user->document  }} " target="blank"><i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a><br></li>
                 @endforeach
 			{{--  --}}
 

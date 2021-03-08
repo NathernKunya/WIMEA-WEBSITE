@@ -60,6 +60,7 @@ Route::get("/gallery", [GalleryController::class ,"index"])->name("gallery");
 Route::get("/forum", [ForumController::class ,"index"])->name("forum");
 Route::get("/contact", [ContactUsController::class ,"index"])->name("contact");
 Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
+Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
 
 //technical documents
 Route::get("/technicaldocuments", [TechnicalDocumentsController::class ,"index"])->name("technicaldocuments");
@@ -71,3 +72,4 @@ Route::get("/view_documents", [WeatherDataController::class ,"fetchDocument"]);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('products', 'App\Http\Controllers\ProductController');

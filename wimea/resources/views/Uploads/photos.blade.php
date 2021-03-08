@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -38,22 +38,6 @@
 	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
 </div> <!-- /.inner-banner -->
     <div class="service-details">
 		<div class="container">
@@ -174,16 +158,16 @@
 			</div> <!-- /.service-sidebar -->
 		</div> <!-- /.container -->
 	</div> <!-- /.service-details -->
-	
-	
+
+
 
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -217,7 +201,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 
