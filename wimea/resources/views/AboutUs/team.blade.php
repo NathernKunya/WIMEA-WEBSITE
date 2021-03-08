@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -37,180 +37,179 @@
 	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
 </div> <!-- /.inner-banner -->
     	<!--
 			=============================================
 				Our Team
 			==============================================
 			-->
-			<div class="our-team" id="team-section">
-				<div class="container">
-					<div class="theme-title text-center">
-						<h2>Our Awesome Team</h2>
-					</div> <!-- /.theme-title -->
+            <div class="our-team">
+                <div class="container">
+                    <div class="theme-title text-center">
+                        <h2>Our Awesome Team</h2>
+                    </div> <!-- /.theme-title -->
 
-					<div id="team-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <div id="team-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
 
-						  <!-- Indicators -->
-						<ol class="carousel-indicators">
-						    <li data-target="#team-carousel" data-slide-to="0" class="active"><img src="images/home/6.jpg" alt="Image"></li>
-						    <li data-target="#team-carousel" data-slide-to="1"><img src="images/home/7.jpg" alt="Image"></li>
-						    <li data-target="#team-carousel" data-slide-to="2"><img src="images/home/8.jpg" alt="Image"></li>
-						    <li data-target="#team-carousel" data-slide-to="3"><img src="images/home/9.jpg" alt="Image"></li>
-						    <li data-target="#team-carousel" data-slide-to="4"><img src="images/home/10.jpg" alt="Image"></li>
-						</ol>
+                          <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#team-carousel" data-slide-to="0" class="active"><img src="images/home/jj3.jpg" alt="Image"></li>
+                            <li data-target="#team-carousel" data-slide-to="1"><img src="images/home/7.jpg" alt="Image"></li>
+                            <li data-target="#team-carousel" data-slide-to="2"><img src="images/home/8.jpg" alt="Image"></li>
+                            <li data-target="#team-carousel" data-slide-to="3"><img src="images/home/9.jpg" alt="Image"></li>
+                            <li data-target="#team-carousel" data-slide-to="4"><img src="images/home/10.jpg" alt="Image"></li>
+                        </ol>
 
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-						    <div class="item active">
-						    	<div class="clearfix">
-						    		<div class="image-box float-left">
-						    			<div class="name text-center">
-						    				<h5>David Copperfield</h5>
-						    				<p>CEO &amp; Founder</p>
-						    			</div>
-						    			<img src="images/home/5.jpg" alt="Image">
-						    		</div> <!-- /.image-box -->
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="clearfix">
+                                    <div class="image-box float-left">
+                                        <div class="name text-center">
+                                            <h5>Dr. Julianne Sansa-Otim</h5>
+                                            <p>PROJECT PRINCIPAL INVESTIGATOR</p>
+                                        </div>
+                                        <img src="images/home/jj3.jpg" alt="Image">
+                                    </div> <!-- /.image-box -->
 
-						    		<div class="info float-left">
-						    			<h5>bio:</h5>
-						    			<p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-						    			<h6>Education:</h6>
-						    			<ul>
-						    				<li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-						    				<li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-						    				<li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-						    			</ul>
-						    			<h6>Award:</h6>
-						    			<p>Winner of LA Biz award 2012</p>
-						    		</div> <!-- /.info -->
-						    	</div> <!-- /.clear-fix -->
-						    </div>	
-						    <div class="item">
-							    <div class="clearfix">
-						    		<div class="image-box float-left">
-						    			<div class="name text-center">
-						    				<h5>David Copperfield</h5>
-						    				<p>CEO &amp; Founder</p>
-						    			</div>
-						    			<img src="images/home/11.jpg" alt="Image">
-						    		</div> <!-- /.image-box -->
+                                    <div class="info float-left">
+                                        <h5>About Dr. Julianne Sansa-Otim</h5>
 
-						    		<div class="info float-left">
-						    			<h5>bio:</h5>
-						    			<p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-						    			<h6>Education:</h6>
-						    			<ul>
-						    				<li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-						    				<li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-						    				<li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-						    			</ul>
-						    			<h6>Award:</h6>
-						    			<p>Winner of LA Biz award 2012</p>
-						    		</div> <!-- /.info -->
-						    	</div> <!-- /.clear-fix -->
-						    </div>	
-						    <div class="item">
-							    <div class="clearfix">
-						    		<div class="image-box float-left">
-						    			<div class="name text-center">
-						    				<h5>David Copperfield</h5>
-						    				<p>CEO &amp; Founder</p>
-						    			</div>
-						    			<img src="images/home/12.jpg" alt="Image">
-						    		</div> <!-- /.image-box -->
+                                        <p>
 
-						    		<div class="info float-left">
-						    			<h5>bio:</h5>
-						    			<p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-						    			<h6>Education:</h6>
-						    			<ul>
-						    				<li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-						    				<li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-						    				<li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-						    			</ul>
-						    			<h6>Award:</h6>
-						    			<p>Winner of LA Biz award 2012</p>
-						    		</div> <!-- /.info -->
-						    	</div> <!-- /.clear-fix -->
-						    </div>	
-						    <div class="item">
-						      	<div class="clearfix">
-						    		<div class="image-box float-left">
-						    			<div class="name text-center">
-						    				<h5>David Copperfield</h5>
-						    				<p>CEO &amp; Founder</p>
-						    			</div>
-						    			<img src="images/home/13.jpg" alt="Image">
-						    		</div> <!-- /.image-box -->
+                                        From the College of Computing and Information Sciences,
+                                        Makerere University is the Project Coordinator for the WIMEA-ICT project. She will provide
+                                        the leadership in the curriculum development process as
+                                        well as over all coordination for all the project components
+                                        among the four partnering institutions.
+                                        Dr. Sansa-Otim got her PhD on a study entitled <b>"Measuring
+                                        and Modeling the Performance of High-speed Data Transport
+                                        Protocols"</b> from the University of Groningen, in the Netherlands.
+                                        Since 2002, she has worked at Makerere University School of Computing
+                                        and Informatics Technology (SCIT) in several capacities.
+                                        Since 2010, Dr. Sansa-Otim is the Chair of the Department of Networks in the SCIT.
+                                        Her research experience and interests include the design of internet protocols,
+                                        analysis of telecommunications policy, and the evaluation of communication networks.
+                                        </p>
+                                        <h6>Contact:</h6>
+                                        <ul>
+                                            <li><span>PHONE -</span> +256392000180 &nbsp; &nbsp; <span >  EMAIL -</span> sansa@cit.ac.ug</li>
+                                            <li><span>SKYPE-</span> sansa <span> &nbsp; &nbsp; &nbsp; &nbsp; WEB:-</span> http://cit.mak.ac.ug/staff/sansa</li>
+                                            <li><span>SKILLS-</span> Lecturer, Researcher, Consultant</li>
 
-						    		<div class="info float-left">
-						    			<h5>bio:</h5>
-						    			<p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-						    			<h6>Education:</h6>
-						    			<ul>
-						    				<li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-						    				<li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-						    				<li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-						    			</ul>
-						    			<h6>Award:</h6>
-						    			<p>Winner of LA Biz award 2012</p>
-						    		</div> <!-- /.info -->
-						    	</div> <!-- /.clear-fix -->
-						    </div>
-						    <div class="item">
-						      	<div class="clearfix">
-						    		<div class="image-box float-left">
-						    			<div class="name text-center">
-						    				<h5>David Copperfield</h5>
-						    				<p>CEO &amp; Founder</p>
-						    			</div>
-						    			<img src="images/home/14.jpg" alt="Image">
-						    		</div> <!-- /.image-box -->
+                                        </ul>
+                                    </div> <!-- /.info -->
+                                </div> <!-- /.clear-fix -->
+                            </div>
+                            <div class="item">
+                                <div class="clearfix">
+                                    <div class="image-box float-left">
+                                        <div class="name text-center">
+                                            <h5>David Copperfield</h5>
+                                            <p>CEO &amp; Founder</p>
+                                        </div>
+                                        <img src="images/home/11.jpg" alt="Image">
+                                    </div> <!-- /.image-box -->
 
-						    		<div class="info float-left">
-						    			<h5>bio:</h5>
-						    			<p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-						    			<h6>Education:</h6>
-						    			<ul>
-						    				<li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-						    				<li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-						    				<li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-						    			</ul>
-						    			<h6>Award:</h6>
-						    			<p>Winner of LA Biz award 2012</p>
-						    		</div> <!-- /.info -->
-						    	</div> <!-- /.clear-fix -->
-						    </div>
-						</div> <!-- /.carousel-inner -->		
-					</div> <!-- /#team-carousel -->
-				</div> <!-- /.container -->
-			</div> <!-- /.our-team -->
+                                    <div class="info float-left">
+                                        <h5>bio:</h5>
+                                        <p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
+                                        <h6>Education:</h6>
+                                        <ul>
+                                            <li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
+                                            <li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
+                                            <li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
+                                        </ul>
+                                        <h6>Award:</h6>
+                                        <p>Winner of LA Biz award 2012</p>
+                                    </div> <!-- /.info -->
+                                </div> <!-- /.clear-fix -->
+                            </div>
+                            <div class="item">
+                                <div class="clearfix">
+                                    <div class="image-box float-left">
+                                        <div class="name text-center">
+                                            <h5>David Copperfield</h5>
+                                            <p>CEO &amp; Founder</p>
+                                        </div>
+                                        <img src="images/home/12.jpg" alt="Image">
+                                    </div> <!-- /.image-box -->
+
+                                    <div class="info float-left">
+                                        <h5>bio:</h5>
+                                        <p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
+                                        <h6>Education:</h6>
+                                        <ul>
+                                            <li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
+                                            <li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
+                                            <li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
+                                        </ul>
+                                        <h6>Award:</h6>
+                                        <p>Winner of LA Biz award 2012</p>
+                                    </div> <!-- /.info -->
+                                </div> <!-- /.clear-fix -->
+                            </div>
+                            <div class="item">
+                                  <div class="clearfix">
+                                    <div class="image-box float-left">
+                                        <div class="name text-center">
+                                            <h5>David Copperfield</h5>
+                                            <p>CEO &amp; Founder</p>
+                                        </div>
+                                        <img src="images/home/13.jpg" alt="Image">
+                                    </div> <!-- /.image-box -->
+
+                                    <div class="info float-left">
+                                        <h5>bio:</h5>
+                                        <p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
+                                        <h6>Education:</h6>
+                                        <ul>
+                                            <li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
+                                            <li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
+                                            <li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
+                                        </ul>
+                                        <h6>Award:</h6>
+                                        <p>Winner of LA Biz award 2012</p>
+                                    </div> <!-- /.info -->
+                                </div> <!-- /.clear-fix -->
+                            </div>
+                            <div class="item">
+                                  <div class="clearfix">
+                                    <div class="image-box float-left">
+                                        <div class="name text-center">
+                                            <h5>David Copperfield</h5>
+                                            <p>CEO &amp; Founder</p>
+                                        </div>
+                                        <img src="images/home/14.jpg" alt="Image">
+                                    </div> <!-- /.image-box -->
+
+                                    <div class="info float-left">
+                                        <h5>bio:</h5>
+                                        <p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
+                                        <h6>Education:</h6>
+                                        <ul>
+                                            <li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
+                                            <li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
+                                            <li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
+                                        </ul>
+                                        <h6>Award:</h6>
+                                        <p>Winner of LA Biz award 2012</p>
+                                    </div> <!-- /.info -->
+                                </div> <!-- /.clear-fix -->
+                            </div>
+                        </div> <!-- /.carousel-inner -->
+                    </div> <!-- /#team-carousel -->
+                </div> <!-- /.container -->
+               </div> <!-- /.our-team -->
 
 
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -244,7 +243,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

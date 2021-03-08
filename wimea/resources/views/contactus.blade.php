@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -38,29 +38,13 @@
 	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
-   <div class="opacity">
-	   <div class="container">
-		   <div class="wrapper">
-			   <div class="title">
-				   <ul>
-					   <li><a href="index-2.html" class="tran3s">HOME</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li><a href="index-2.html" class="tran3s">Service</a></li>
-					   <li><i class="icon flaticon-right"></i></li>
-					   <li>MARKET RESEARCH</li>
-				   </ul>
-				   <h2>MARKET RESEARCH</h2>
-			   </div> <!-- /.title -->
-		   </div> <!-- /.wrapper -->
-	   </div> <!-- /.container -->
-   </div> <!-- /.opacity -->
 </div> <!-- /.inner-banner -->
 	<div class="contact-nav container">
 		<ul class="clearfix nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#los" class="tran3s">LOS ANGELES</a></li>
-			<li><a data-toggle="tab" href="#new" class="tran3s">NEW YORK</a></li>
-			<li><a data-toggle="tab" href="#texas" class="tran3s">TEXAS</a></li>
-			<li><a data-toggle="tab" href="#honululu" class="tran3s">HONOLULU</a></li>
+			<li class="active"><a data-toggle="tab" href="#los" class="tran3s">UGANDA</a></li>
+			<li><a data-toggle="tab" href="#new" class="tran3s">TANZANIA</a></li>
+			<li><a data-toggle="tab" href="#texas" class="tran3s">SOUTH SUDAN</a></li>
+			<li><a data-toggle="tab" href="#honululu" class="tran3s">SWEDEN</a></li>
 		</ul>
 	</div>
 
@@ -76,9 +60,9 @@
 								<h2>OUR CONTACT</h2>
 							</div> <!-- /.theme-title -->
 							<ul>
-								<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1010, Mountain view <br> North Pole, LA, CA</li>
-								<li><i class="fa fa-phone" aria-hidden="true"></i> +1 202 245 3062</li>
-								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="http://themazine.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d1b8bfb7be91b7b8bfa5b4b2b9ffb2bebc">[email&#160;protected]</a></li>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> SCIT, 7062 Kampala Uganda</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +256 757 734717 </li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i>wimeaict@gmail.com</li>
 							</ul>
 						</div> <!-- /.opacity -->
 					</div>
@@ -151,7 +135,7 @@
 	<!-- Contact Form -->
 	<div class="contact-form-holder container">
 		<div class="row">
-			<form action="http://themazine.com/html/fin-tech/inc/sendemail.php" class="form-validation" autocomplete="off">
+			<form action="#" class="form-validation" autocomplete="off">
 				<div class="col-sm-6 col-xs-12">
 					<div class="single-input-group">
 						<input type="text" placeholder="First Name" name="Fname">
@@ -198,12 +182,12 @@
 		</div> <!-- End of .alert_wrapper -->
 	</div> <!-- /.contact-form-holder -->
 
-
+<br>
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -237,7 +221,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 
