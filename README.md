@@ -1,3 +1,3 @@
 # WIMEA-WEBSITE
-New upgraded Website for WIMEA-ICT
-This is the WIMEA-ict WEBsite code
+New upgraded Website for WIMEA-ICT.
+THIS WEBSITE IS BEING DEVELOPED USING PHP LARAVEL FRAMEWORK
