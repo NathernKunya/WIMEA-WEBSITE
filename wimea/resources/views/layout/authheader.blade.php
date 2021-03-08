@@ -99,7 +99,7 @@
                    </ul>
                 </li>
 
-                  <li><a href="{{route("gallery")}}">GALLARY</a></li>
+                  <li><a href="{{route("gallery")}}">GALLERY</a></li>
                   <li><a href="#">ABOUT US</a>
                       <ul class="dropdown">
                         <li><a href="{{route("team")}}">Our Team</a></li>

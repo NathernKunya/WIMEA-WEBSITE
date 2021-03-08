@@ -11,11 +11,9 @@
 							<a href="index-2.html" class="logo"><img src="images/logo/logo1.png" width="260" height="70" alt="Image"></a>
 
 							<ul>
-								<li><a href="about-us.html" class="tran3s">About Us</a></li>
-								<li><a href="#" class="tran3s">Services</a></li>
-								<li><a href="#" class="tran3s">Our Team</a></li>
-								<li><a href="faq.html" class="tran3s">FAQ</a></li>
-								<li><a href="contact-us.html" class="tran3s">Contact Us</a></li>
+								<li><a href="{{ route('contact') }}" class="tran3s">About Us</a></li>
+								<li><a href="{{route("team")}}" class="tran3s">Our Team</a></li>
+								<li><a href="{{ route('contact') }}" class="tran3s">Contact Us</a></li>
 							</ul>
 						</div> <!-- /.footer-logo -->
 
