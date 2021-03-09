@@ -34,7 +34,7 @@
     <body>
     @include("layout.header")
 	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	style="background: url(images/project/img3.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
 </div> <!-- /.inner-banner -->
@@ -105,8 +105,8 @@
                                 <div class="clearfix">
                                     <div class="image-box float-left">
                                         <div class="name text-center">
-                                            <h5>David Copperfield</h5>
-                                            <p>CEO &amp; Founder</p>
+                                            <h5>MARY NSABAGWA</h5>
+                                            <p>PhD STUDENT</p>
                                         </div>
                                         <img src="images/home/11.jpg" alt="Image">
                                     </div> <!-- /.image-box -->

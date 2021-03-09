@@ -35,7 +35,7 @@
     <body>
     @include("layout.header")
 	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	style="background: url(images/project/img1.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
 </div> <!-- /.inner-banner -->
@@ -53,7 +53,7 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-                        <button type="button" class="alert alert-success" data-dismiss="alert"><strong>{{ __('You have successfully login to your account!') }}</strong></button>
+                        <button type="button" class="alert alert-success" data-dismiss="alert"><strong>{{ __('You have successfully logged into your account!') }}</strong></button>
 
 
                     </div>
@@ -64,10 +64,10 @@
     <br>
 	<div class="contact-nav container">
 		<ul class="clearfix nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#los" class="tran3s">LOS ANGELES</a></li>
-			<li><a data-toggle="tab" href="#new" class="tran3s">NEW YORK</a></li>
-			<li><a data-toggle="tab" href="#texas" class="tran3s">TEXAS</a></li>
-			<li><a data-toggle="tab" href="#honululu" class="tran3s">HONOLULU</a></li>
+			<li class="active"><a data-toggle="tab" href="#los" class="tran3s">UGANDA</a></li>
+			<li><a data-toggle="tab" href="#new" class="tran3s">TANZANIA</a></li>
+			<li><a data-toggle="tab" href="#texas" class="tran3s">SOUTH SUDAN</a></li>
+			<li><a data-toggle="tab" href="#honululu" class="tran3s">SWEDEN</a></li>
 		</ul>
 	</div>
 

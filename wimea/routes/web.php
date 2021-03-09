@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\aboutusController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NumericalWeatherController;
 use App\Http\Controllers\WeatherDataController;
@@ -62,6 +63,8 @@ Route::get("/forum", [ForumController::class ,"index"])->name("forum");
 Route::get("/contact", [ContactUsController::class ,"index"])->name("contact");
 Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
 Route::get("/photos", [PhotosController::class ,"index"])->name("photos");
+
+Route::get("/about", [aboutusController::class ,"index"])->name("aboutus");
 
 //technical documents
 Route::get("/technicaldocuments", [TechnicalDocumentsController::class ,"index"])->name("technicaldocuments");
