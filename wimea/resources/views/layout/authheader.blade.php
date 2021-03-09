@@ -16,7 +16,7 @@
             <div class="container">
                 <ul class="float-left">
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i>  SCIT, 7062 Kampala Uganda</li>
-                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> wimeaict@gmail.com</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> wimea@cit.ac.ug</li>
                 </ul>
                 <ul class="float-right">
 
