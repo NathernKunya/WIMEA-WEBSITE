@@ -206,14 +206,15 @@
 				<div class="container">
 
 					<div class="ceo-text clearfix m-top0 p-top100" id="ceo">
-						<img src="images/inner-page/2.jpg" alt="Image" class="float-left">
+						<img src="images/project/m1.jpg" alt="Image" class="float-left">
 						<div class="ceo-right-side float-left">
-							<p>Hey there, I am DON, CEO of FinTech. I am here to help you out with anything
-							you need. I havce over 15 years of industry experiences under my belt. So
-							whatever you need, just come to our office and meet me. I will help you out as
-							much as i can.</p> <br>
-							<p>I am available mostly at my office hours. You can either give me a call or callmy secretary for an appointment. See you at our office. Let’s solve your financial problems.</p>
-							<img src="images/inner-page/sign.png" alt="Image">
+							<p>An assistant lecturer at the College of Computing and Information Sciences, Makerere University, Nsabagwa has a a Bachelor of Science in Computer Science from Makerere University and a Masters of Engineering in Computer Science and Technology from Hunan University P.R.C.</p> <br>
+							<p>
+                                1. Research topic: Towards Layer Alteration free Cross-Layer Design for Energy reduction in Duty Cycled Wireless Sensor Networks
+                            </p>
+							{{-- <img src="images/inner-page/sign.png" alt="Image"> --}}
+                                <br>
+                            <p>MARY NSABAGWA</p>
 						</div> <!-- /.ceo-right-side -->
 					</div> <!-- /.ceo-text -->
 				</div> <!-- /.container -->
