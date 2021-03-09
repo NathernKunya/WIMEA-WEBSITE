@@ -54,7 +54,7 @@
                           <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#team-carousel" data-slide-to="0" class="active"><img src="images/home/jj3.jpg" alt="Image"></li>
-                            <li data-target="#team-carousel" data-slide-to="1"><img src="images/home/7.jpg" alt="Image"></li>
+                            <li data-target="#team-carousel" data-slide-to="1"><img src="images/project/bj1.jpg" alt="Image"></li>
                             <li data-target="#team-carousel" data-slide-to="2"><img src="images/home/8.jpg" alt="Image"></li>
                             <li data-target="#team-carousel" data-slide-to="3"><img src="images/home/9.jpg" alt="Image"></li>
                             <li data-target="#team-carousel" data-slide-to="4"><img src="images/home/10.jpg" alt="Image"></li>
@@ -105,23 +105,23 @@
                                 <div class="clearfix">
                                     <div class="image-box float-left">
                                         <div class="name text-center">
-                                            <h5>MARY NSABAGWA</h5>
-                                            <p>PhD STUDENT</p>
+                                            <h5>PROF. BJORN PEHRSON</h5>
+                                            {{-- <p>PhD STUDENT</p> --}}
                                         </div>
-                                        <img src="images/home/11.jpg" alt="Image">
+                                        <img src="images/project/bj1.jpg" alt="Image">
                                     </div> <!-- /.image-box -->
 
                                     <div class="info float-left">
                                         <h5>bio:</h5>
-                                        <p>David was born in nashville, texas. He is a very funny and <br>energetic guy.</p>
-                                        <h6>Education:</h6>
+                                        <p>Prof. Bjorn Pehrson will lead the Research Component 3 of weather station densification which entails prototyping a suitable and affordable automatic weather station and thereafter building 70 such stations for deployment in Uganda, Tanzania and South Sudan
+                                            Bjorn is an adjuct professor at the Geophysical Institute of the University of Bergen and he also works in the School of Information and Communication Technology at the KTH Royal Institute of Technology. He is a member of the Telecommunication Systems (TsLab) research group.
+                                            Bjorn got his PhD from Uppsala University in 1975. From 1975-1985 he was an associate professor at Uppsala University, 1985-1992, he was at the Swedish Institute of Computer Science (SICS) as the research manager of the Distributed Systems Laboratory and an adjunct professor
+                                            at KTH while initiating the industry-funded MultiG research programme on multimedia applications and high speed networks out of which the two startups Dynarc and Netinsight emerged.
+                                             From 1992-1997, he served as head of department, 1997-2000 visiting professor at Stanford University, 2000-2005 vice dean of the School of ICT.
+                                            His current research interests include Computer and communication systems, consumer-driven research based on pre-commercial procurement strategies, networking solutions for areas of high commercial risk and dedicated networks for education and healthcare.
+                                            He initiated and participated in several EU-projects, coordinated the planning of an AU-EU project establishing a pan-African broadband infrastructure for research and education networks together with current and former African KTH students.</p>
+
                                         <ul>
-                                            <li><span>MBA -</span> Wharton School of Business <br> Year: 1995-1998</li>
-                                            <li><span>BBA -</span> Harvard University <br> Year: 1990-1995</li>
-                                            <li><span>BSC-</span> Yale University <br> Year: 1985-1990</li>
-                                        </ul>
-                                        <h6>Award:</h6>
-                                        <p>Winner of LA Biz award 2012</p>
                                     </div> <!-- /.info -->
                                 </div> <!-- /.clear-fix -->
                             </div>
@@ -129,8 +129,8 @@
                                 <div class="clearfix">
                                     <div class="image-box float-left">
                                         <div class="name text-center">
-                                            <h5>David Copperfield</h5>
-                                            <p>CEO &amp; Founder</p>
+                                            <h5>PROF. BJORN PEHRSON</h5>
+                                            <p></p>
                                         </div>
                                         <img src="images/home/12.jpg" alt="Image">
                                     </div> <!-- /.image-box -->
@@ -201,6 +201,24 @@
                     </div> <!-- /#team-carousel -->
                 </div> <!-- /.container -->
                </div> <!-- /.our-team -->
+
+               <div class="who-we-are">
+				<div class="container">
+
+					<div class="ceo-text clearfix m-top0 p-top100" id="ceo">
+						<img src="images/inner-page/2.jpg" alt="Image" class="float-left">
+						<div class="ceo-right-side float-left">
+							<p>Hey there, I am DON, CEO of FinTech. I am here to help you out with anything
+							you need. I havce over 15 years of industry experiences under my belt. So
+							whatever you need, just come to our office and meet me. I will help you out as
+							much as i can.</p> <br>
+							<p>I am available mostly at my office hours. You can either give me a call or callmy secretary for an appointment. See you at our office. Let’s solve your financial problems.</p>
+							<img src="images/inner-page/sign.png" alt="Image">
+						</div> <!-- /.ceo-right-side -->
+					</div> <!-- /.ceo-text -->
+				</div> <!-- /.container -->
+			</div> <!-- /.who-we-are -->
+<br>
 
 
 

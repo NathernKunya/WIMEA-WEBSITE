@@ -100,7 +100,7 @@
                 </li>
 
                   <li><a href="{{route("gallery")}}">GALLERY</a></li>
-                  <li><a href="#">ABOUT US</a>
+                  <li><a href="{{ route("aboutus") }}">ABOUT US</a>
                       <ul class="dropdown">
                         <li><a href="{{route("team")}}">Our Team</a></li>
                         <li><a href="{{route("intern")}}">Interns</a></li>
