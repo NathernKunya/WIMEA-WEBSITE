@@ -48,8 +48,33 @@
 
 			<ul class="project-info clearfix">
                 <h3>DOCUMENTS</h3><br>
-                @foreach ($documents as $user)
-               <li> <a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a><br></li>
+                @foreach ($documents as $key=>$user)
+                <table class="table table-hover table-bordered">
+                    <tr>
+                        <th>No.</th>
+                        <th>Name Of the Document</th>
+                        <th>link</th>
+                        <th>Document category</th>
+                        <th>Date of Submission</th>
+                        @if (!Auth::guest())
+                        <th >Edit</th>
+                        @else
+
+                        @endif
+                    </tr>
+                    <tr>
+                        <td>{{ $key+1 }}</td>
+                        <td>{{ $user->name }}</td>
+                        <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
+                        <td>{{ $user->category }}</td>
+                        <td>{{ $user->date }}</td>
+                        @if (!Auth::guest())
+                        <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
+                        @else
+                        @endif
+                    </tr>
+                </table>
+
                 @endforeach
 			{{--  --}}
 

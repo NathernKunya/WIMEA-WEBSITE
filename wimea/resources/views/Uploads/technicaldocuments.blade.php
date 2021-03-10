@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <!-- Mirrored from themazine.com/html/fin-tech/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Sep 2020 09:55:10 GMT -->
 <head>
 		<meta charset="UTF-8">
@@ -164,8 +164,8 @@
 		</div> <!-- /.container -->
 	</div> <!-- /.service-details --> --}}
 
- 
-	
+
+
 	<div class="container">
 	<div class="row">
 	<div class="card" style="width: 60rem; margin: auto; background: lavender;padding: 30px; margin-bottom: 30px; border-radius: 10px;">
@@ -192,7 +192,7 @@
 	<h5 class="card-title">FORM FOR FILE UPLOAD</h5> &nbsp;
 	<form action="{{ route('technicaldocuments') }}" method="POST" enctype="multipart/form-data">
 		@csrf
-		
+
 
 			<div class="form-group">
 				<label for="file">NAME OF THE FILE</label>
@@ -209,13 +209,13 @@
 
 			<div class="form-group ml-5">
 				<label for="file">FILE TO UPLOAD</label>
-				<input type="file" name="file[]" multiple class="form-control" 
-				
+				<input type="file" name="file[]" multiple class="form-control"
+
 				id="file">
 			</div>
 			<div class="form-group  ml-5">
 				<label for="" class="date">DATE</label>
-				
+
 				  <input class="form-control @error('date') is-invalid
 				  @enderror" name="date" value="{{ old('date') }}" type="date"  value="date">
 				  @error('date')
@@ -224,9 +224,9 @@
 					  <strong>{{ $message }}</strong>
 				  </span>
 			  @enderror
-				
+
 			</div>
-			
+
 
 			<div class="form-group ml-5">
 				<label for="file">FILE CATEGORY</label>
@@ -246,7 +246,7 @@
 			  @enderror
 
 			</div>
-			
+
 
 			<div class="form-group">
 				<button type="submit" class="btn btn-success">Submit</button>
@@ -258,12 +258,80 @@
  </div>
  </div>
  </div>
-	
-{{-- 
+ 
+ <div class="card-body">
+ <h5 class="card-title">FORM FOR FILE UPLOAD</h5> &nbsp;
+ <form action="{{ route('technicaldocuments') }}" method="POST" enctype="multipart/form-data">
+     @csrf
+
+
+         <div class="form-group">
+             <label for="file">NAME OF THE FILE</label>
+             <input type="text" name="name" placeholder="Enter file name"
+              class="form-control @error('name') is-invalid
+             @enderror">
+             @error('name')
+
+               <span class="invalid-feedback" role="alert">
+                   <strong>{{ $message }}</strong>
+               </span>
+           @enderror
+         </div>
+
+         <div class="form-group ml-5">
+             <label for="file">FILE TO UPLOAD</label>
+             <input type="file" name="file[]" multiple class="form-control"
+
+             id="file">
+         </div>
+         <div class="form-group  ml-5">
+             <label for="" class="date">DATE</label>
+
+               <input class="form-control @error('date') is-invalid
+               @enderror" name="date" value="{{ old('date') }}" type="date"  value="date">
+               @error('date')
+
+               <span class="invalid-feedback" role="alert">
+                   <strong>{{ $message }}</strong>
+               </span>
+           @enderror
+
+         </div>
+
+
+         <div class="form-group ml-5">
+             <label for="file">FILE CATEGORY</label>
+               <select name="category" class="form-control  @error('date') is-invalid
+               @enderror">
+                  <option value="">---select category---</option>
+                   <option value="rc1">RC1</option>
+                   <option value="rc2">RC2</option>
+                   <option value="rc3">RC3</option>
+                   <option value="rc4">RC4</option>
+               </select>
+               @error('category')
+
+               <span class="invalid-feedback" role="alert">
+                   <strong>{{ $message }}</strong>
+               </span>
+           @enderror
+
+         </div>
+
+
+         <div class="form-group">
+             <button type="submit" class="btn btn-success">Submit</button>
+         </div>
+
+     </div>
+ </form>
+</div>
+
+{{--
 		<div class="container">
-   
+
                <h2>Technical Documents</h2>
-	   
+
 			@if ($message = Session::get('success'))
 			<div class="alert alert-success alert-block">
 				<button type="button" class="close" data-dismiss="alert">×</button>
@@ -271,7 +339,7 @@
 			</div>
 			<img src="uploads/{{ Session::get('file') }}">
 			@endif
-	  
+
 			@if (count($errors) > 0)
 				<div class="alert alert-danger">
 					<strong>Whoops!</strong> There were some problems with your input.
@@ -282,13 +350,13 @@
 					</ul>
 				</div>
 			@endif
-	  
+
 			<form action="{{ route("technicaldocuments") }}" method="POST" enctype="multipart/form-data">
 				@csrf
 				<div class="row">
 					<div class="form-group">
 						<label for="file">File Name</label>
-						<input type="text" name="name" 
+						<input type="text" name="name"
 						 class="form-control @error('name') is-invalid
 						@enderror">
 						@error('name')
@@ -305,7 +373,7 @@
 					</div>
 					<div class="form-group">
 						<label for="" class="date">Date</label>
-						
+
 						  <input class="form-control @error('date') is-invalid
 						  @enderror" name="date" value="{{ old('date') }}" type="date" value="date">
 						  @error('date')
@@ -314,9 +382,9 @@
 							  <strong>{{ $message }}</strong>
 						  </span>
 					  @enderror
-						
+
 					</div>
-	                
+
 
 					<div class="form-group">
 						<label for="file">category</label>
@@ -335,26 +403,26 @@
 					  @enderror
 
 					</div>
-					
-	   
+
+
 					<div class="form-group">
 						<button type="submit" class="btn btn-success">Submit</button>
 					</div>
-	   
+
 				</div>
 			</form>
-	  
+
 		</div> --}}
-	
-	
+
+
 
 
 
     @include("layout.footer")
-        
-    
+
+
     <!-- Js File_________________________________ -->
-    
+
 
 		<!-- j Query -->
 		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
@@ -388,7 +456,7 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
-    
+
     </body>
     </html>
 

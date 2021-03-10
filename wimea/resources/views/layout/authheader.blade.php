@@ -71,7 +71,11 @@
                   </li>
                   <li><a href="#">NEWS</a>
                       <ul class="dropdown">
-                        <li><a href="{{route("editorial")}}">EDITORIALS</a></li>
+                        <li><a href="{{route("editorial")}}">EDITORIALS</a>
+                            {{-- <ul>
+                                <li><a href="{{route("editorial")}}">EDITORIALS</a></li>
+                            </ul> --}}
+                        </li>
                         <li><a href="{{route("media")}}">IN MEDIA</a></li>
 
                      </ul>

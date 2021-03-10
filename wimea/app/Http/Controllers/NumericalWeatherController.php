@@ -10,4 +10,5 @@ class NumericalWeatherController extends Controller
     public function index(){
         return view("ResearchComponents.numericalweather");
     }
+    
 }
