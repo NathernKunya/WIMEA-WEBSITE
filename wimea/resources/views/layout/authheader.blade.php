@@ -31,7 +31,7 @@
         <div class="bottom-header">
             <div class="container">
                 <div class="wrapper clearfix">
-                    <div class="logo float-left"><a href="index-2.html"><img src="images/logo/log.png" width="400" height="75" alt="Logo"></a></div>
+                    <div class="logo float-left"><a href="index-2.html"><img src="{{ asset('images/logo/log.png') }}" width="400" height="75" alt="Logo"></a></div>
 
                     <div class="float-right right-side">
                         <ul>

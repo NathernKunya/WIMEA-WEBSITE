@@ -13,13 +13,13 @@
 		<title>WIMEA-ICT</title>
 
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon1.png">
+		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/fav-icon/icon1.png') }}">
 
 
 		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href=" {{ HTML::style('css/style.css') }}">
+		<link rel="stylesheet" type="text/css" href=" {{ asset('css/style.css') }}">
 		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href=" {{ HTML::style('css/responsive.css') }} ">
+		<link rel="stylesheet" type="text/css" href=" {{ asset('css/responsive.css') }} ">
 
 
 		<!-- Fix Internet Explorer ______________________________________-->
@@ -69,7 +69,7 @@
 		</div>
 	@endif
 	<div class="card-body">
-	<h5 class="card-title">FORM FOR FILE UPLOAD</h5> &nbsp;
+	<h5 class="card-title">UPDATE FILE FORM</h5> &nbsp;
 	<form action="/edit/<?php echo $edituser[0]->doc_Id; ?>" method="POST" enctype="multipart/form-data">
 		@csrf
 
@@ -132,7 +132,7 @@
 
 
 			<div class="form-group">
-				<button type="submit" class="btn btn-success">Submit</button>
+				<button type="submit" class="btn btn-success">UPDATE</button>
 			</div>
 
 		</div>
@@ -142,92 +142,6 @@
  </div>
  </div>
 
-{{--
-		<div class="container">
-
-               <h2>Technical Documents</h2>
-
-			@if ($message = Session::get('success'))
-			<div class="alert alert-success alert-block">
-				<button type="button" class="close" data-dismiss="alert">×</button>
-					<strong>{{ $message }}</strong>
-			</div>
-			<img src="uploads/{{ Session::get('file') }}">
-			@endif
-
-			@if (count($errors) > 0)
-				<div class="alert alert-danger">
-					<strong>Whoops!</strong> There were some problems with your input.
-					<ul>
-						@foreach ($errors->all() as $error)
-							<li>{{ $error }}</li>
-						@endforeach
-					</ul>
-				</div>
-			@endif
-
-			<form action="{{ route("technicaldocuments") }}" method="POST" enctype="multipart/form-data">
-				@csrf
-				<div class="row">
-					<div class="form-group">
-						<label for="file">File Name</label>
-						<input type="text" name="name"
-						 class="form-control @error('name') is-invalid
-						@enderror">
-						@error('name')
-
-						  <span class="invalid-feedback" role="alert">
-							  <strong>{{ $message }}</strong>
-						  </span>
-					  @enderror
-					</div>
-
-					<div class="form-group">
-						<label for="file">File</label>
-						<input type="file" name="file" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="" class="date">Date</label>
-
-						  <input class="form-control @error('date') is-invalid
-						  @enderror" name="date" value="{{ old('date') }}" type="date" value="date">
-						  @error('date')
-
-						  <span class="invalid-feedback" role="alert">
-							  <strong>{{ $message }}</strong>
-						  </span>
-					  @enderror
-
-					</div>
-
-
-					<div class="form-group">
-						<label for="file">category</label>
-                          <select name="category" class="form-control  @error('date') is-invalid
-						  @enderror">
-							  <option value="rc1">RC1</option>
-							  <option value="rc2">RC2</option>
-							  <option value="rc3">RC3</option>
-							  <option value="rc4">RC4</option>
-						  </select>
-						  @error('category')
-
-						  <span class="invalid-feedback" role="alert">
-							  <strong>{{ $message }}</strong>
-						  </span>
-					  @enderror
-
-					</div>
-
-
-					<div class="form-group">
-						<button type="submit" class="btn btn-success">Submit</button>
-					</div>
-
-				</div>
-			</form>
-
-		</div> --}}
 
 
 
@@ -240,37 +154,37 @@
 
 
 		<!-- j Query -->
-		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+		<script data-cfasync="false" src="{{ asset('../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script><script type="text/javascript" src="{{ asset('vendor/jquery.2.2.3.min.js') }}"></script>
 
 		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/bootstrap/bootstrap.min.js') }}"></script>
 		<!-- Bootstrap Select JS -->
-		<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/bootstrap-select/dist/js/bootstrap-select.js') }}"></script>
 
 		<!-- Vendor js _________ -->
 		<!-- revolution -->
-		<script src="vendor/revolution/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/revolution/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.kenburn.min.js"></script>
+		<script src="{{ asset('vendor/revolution/jquery.themepunch.tools.min.js') }}"></script>
+		<script src="{{ asset('vendor/revolution/jquery.themepunch.revolution.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/revolution/revolution.extension.slideanims.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/revolution/revolution.extension.layeranimation.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/revolution/revolution.extension.navigation.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/revolution/revolution.extension.kenburn.min.js') }}"></script>
 		<!-- menu  -->
-		<script type="text/javascript" src="vendor/menu/src/js/jquery.slimmenu.js"></script>
-		<script type="text/javascript" src="vendor/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/menu/src/js/jquery.slimmenu.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jquery.easing.1.3.js') }}"></script>
 		<!-- isotop -->
-		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/isotope.pkgd.min.js') }}"></script>
 		<!-- fancy box -->
-		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/fancy-box/jquery.fancybox.pack.js') }}"></script>
 		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/owl-carousel/owl.carousel.min.js') }}"></script>
 		<!-- js count to -->
-		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
-		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jquery.appear.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jquery.countTo.js') }}"></script>
 
 
 		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
+		<script type="text/javascript" src="{{ asset('js/theme.js')}}"></script>
 
     </body>
     </html>
