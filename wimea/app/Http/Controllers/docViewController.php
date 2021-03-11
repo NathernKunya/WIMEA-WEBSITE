@@ -68,7 +68,7 @@ class docViewController extends Controller
 
             DB::update('update documents set name = ?,document=?,category=?,date=? where doc_Id = ?',[$name,$newfileName,$category,$date,$doc_Id]);
         }
-        return back()->with("success", "files uploaded successfully");
+        return back()->with("success", "Document updated successfully");
 
     }
     else {
