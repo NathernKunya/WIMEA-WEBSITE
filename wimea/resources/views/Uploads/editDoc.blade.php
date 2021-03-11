@@ -35,7 +35,7 @@
     @include("layout.header")
 
 	<div class="inner-banner"
-	style="background: url(images/inner-page/m2.jfif) no-repeat center;
+	style="background: url({{ asset('images/inner-page/m2.jfif') }}) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
    <div class="opacity">
@@ -75,7 +75,7 @@
 
 
 			<div class="form-group">
-				<label for="file">NAME OF THE FILE</label>
+				<label for="file">NAME OF THE FILE(S)</label>
 				<input type="text" name="name" placeholder="Enter file name" value = '<?php echo$edituser[0]->name; ?>'
 				 class="form-control @error('name') is-invalid
 				@enderror">

@@ -43,12 +43,40 @@
 			<div class="theme-title">
 				<h2>WEATHER DATA REPOSITORIES</h2>
 			</div> <!-- /.theme-title -->
-
-			<ul class="project-info clearfix">
+            <ul class="project-info clearfix">
                 <h3>DOCUMENTS</h3><br>
-                @foreach ($documents as $user)
-               <li> <a href="uploads/{{ $user->document  }} " target="blank"> <i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a><br></li>
-                @endforeach
+                <table class="table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Name Of the Document</th>
+                        <th scope="col">link</th>
+                        <th scope="col">Document category</th>
+                        <th scope="col">Date of Submission</th>
+                        @if (!Auth::guest())
+                        <th>Edit</th>
+                        @else
+
+                        @endif
+                    </tr>
+                    </thead>
+                    @foreach ($documents as $key=>$user)
+                    <tbody>
+
+                    <tr>
+                        <th scope="row">{{ $key+1 }}</th>
+                        <td>{{ $user->name }}</td>
+                        <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
+                        <td>{{ $user->category }}</td>
+                        <td>{{ $user->date }}</td>
+                        @if (!Auth::guest())
+                        <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
+                        @else
+                        @endif
+                    </tr>
+                    </tbody>
+                    @endforeach
+                </table>
 			{{--  --}}
 
 			</ul>

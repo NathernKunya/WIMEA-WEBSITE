@@ -48,22 +48,26 @@
 
 			<ul class="project-info clearfix">
                 <h3>DOCUMENTS</h3><br>
-                @foreach ($documents as $key=>$user)
                 <table class="table table-hover table-bordered">
+                    <thead>
                     <tr>
-                        <th>No.</th>
-                        <th>Name Of the Document</th>
-                        <th>link</th>
-                        <th>Document category</th>
-                        <th>Date of Submission</th>
+                        <th scope="col">No.</th>
+                        <th scope="col">Name Of the Document</th>
+                        <th scope="col">link</th>
+                        <th scope="col">Document category</th>
+                        <th scope="col">Date of Submission</th>
                         @if (!Auth::guest())
-                        <th >Edit</th>
+                        <th>Edit</th>
                         @else
 
                         @endif
                     </tr>
+                    </thead>
+                    @foreach ($documents as $key=>$user)
+                    <tbody>
+
                     <tr>
-                        <td>{{ $key+1 }}</td>
+                        <th scope="row">{{ $key+1 }}</th>
                         <td>{{ $user->name }}</td>
                         <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
                         <td>{{ $user->category }}</td>
@@ -73,9 +77,9 @@
                         @else
                         @endif
                     </tr>
+                    </tbody>
+                    @endforeach
                 </table>
-
-                @endforeach
 			{{--  --}}
 
 			</ul>
