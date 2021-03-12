@@ -229,16 +229,34 @@
 
 
 			<div class="form-group ml-5">
-				<label for="file">FILE CATEGORY</label>
+				<label for="file">RESEARCH COMPONENT(S</label>
 				  <select name="category" class="form-control  @error('date') is-invalid
 				  @enderror">
 				     <option value="">---select category---</option>
-					  <option value="rc1">RC1</option>
-					  <option value="rc2">RC2</option>
-					  <option value="rc3">RC3</option>
-					  <option value="rc4">RC4</option>
+					  <option value="Numerical Weather Prediction">Numerical Weather Prediction (RC1)</option>
+					  <option value="Weather Data Repositories">Weather Data Repositories(RC2)</option>
+					  <option value="Weather Station Network Density">Weather Station Network Density (RC3)</option>
+					  <option value="Weather Information Dissemination">Weather Information Dissemination (RC4)</option>
 				  </select>
 				  @error('category')
+
+				  <span class="invalid-feedback" role="alert">
+					  <strong>{{ $message }}</strong>
+				  </span>
+			  @enderror
+
+			</div>
+            <div class="form-group ml-5">
+				<label for="file">USER MAUAL(S)</label>
+				  <select name="manual" class="form-control  @error('date') is-invalid
+				  @enderror">
+				     <option value="">---select category---</option>
+                     <option value="Numerical Weather Prediction Manual">Numerical Weather Prediction Manual (RC1) </option>
+                     <option value="Weather Data Repositories Manual">Weather Data Repositories Manual (RC2)</option>
+                     <option value="Weather Station Network Density Manual">Weather Station Network Density Manual (RC3)</option>
+                     <option value="Weather Information Dissemination Manual">Weather Information Dissemination Manual (RC4)</option>
+				  </select>
+				  @error('manual')
 
 				  <span class="invalid-feedback" role="alert">
 					  <strong>{{ $message }}</strong>
@@ -258,74 +276,7 @@
  </div>
  </div>
  </div>
- 
- <div class="card-body">
- <h5 class="card-title">FORM FOR FILE UPLOAD</h5> &nbsp;
- <form action="{{ route('technicaldocuments') }}" method="POST" enctype="multipart/form-data">
-     @csrf
 
-
-         <div class="form-group">
-             <label for="file">NAME OF THE FILE</label>
-             <input type="text" name="name" placeholder="Enter file name"
-              class="form-control @error('name') is-invalid
-             @enderror">
-             @error('name')
-
-               <span class="invalid-feedback" role="alert">
-                   <strong>{{ $message }}</strong>
-               </span>
-           @enderror
-         </div>
-
-         <div class="form-group ml-5">
-             <label for="file">FILE TO UPLOAD</label>
-             <input type="file" name="file[]" multiple class="form-control"
-
-             id="file">
-         </div>
-         <div class="form-group  ml-5">
-             <label for="" class="date">DATE</label>
-
-               <input class="form-control @error('date') is-invalid
-               @enderror" name="date" value="{{ old('date') }}" type="date"  value="date">
-               @error('date')
-
-               <span class="invalid-feedback" role="alert">
-                   <strong>{{ $message }}</strong>
-               </span>
-           @enderror
-
-         </div>
-
-
-         <div class="form-group ml-5">
-             <label for="file">FILE CATEGORY</label>
-               <select name="category" class="form-control  @error('date') is-invalid
-               @enderror">
-                  <option value="">---select category---</option>
-                   <option value="rc1">RC1</option>
-                   <option value="rc2">RC2</option>
-                   <option value="rc3">RC3</option>
-                   <option value="rc4">RC4</option>
-               </select>
-               @error('category')
-
-               <span class="invalid-feedback" role="alert">
-                   <strong>{{ $message }}</strong>
-               </span>
-           @enderror
-
-         </div>
-
-
-         <div class="form-group">
-             <button type="submit" class="btn btn-success">Submit</button>
-         </div>
-
-     </div>
- </form>
-</div>
 
 {{--
 		<div class="container">

@@ -13,11 +13,10 @@ class TechnicalDocumentsController extends Controller
         return view("Uploads.technicaldocuments");
     }
     public function upload(Request $request)
-    {  
+    {
         $request->validate([
             'date'=>'required',
             'name'=>'required',
-            'category'=>'required',
             // 'file' => 'required|mimes:pdf,xlx,csv,xls,ppt, pptx, docx,txt, doc|max:2048',
         ]);
 
@@ -32,11 +31,11 @@ class TechnicalDocumentsController extends Controller
 
         $newfileName =  $request->name."_".$request->category."_".rand(1,10000).'.'.$ext;
        // dd($newfileName);
-        
+
         $moved =  $fileName->move(public_path('uploads'), $newfileName);
         //$file->move(public_path() . '/mytestfile/', $name);
-            $inserted = DB::insert('insert into documents (name, date, category ,document) 
-            values (?, ?,?,?)', [$request->name , $request->date, $request->category , $newfileName]);
+            $inserted = DB::insert('insert into documents (name, date, category,manual,document)
+            values (?, ?,?,?,?)', [$request->name , $request->date, $request->category, $request->manual , $newfileName]);
 
             }
             return back()->with("success", "files uploaded successfully");
@@ -45,7 +44,7 @@ class TechnicalDocumentsController extends Controller
         else {
             return back()->with("status", "you have an error");
         }
-   
+
     }
 
 }

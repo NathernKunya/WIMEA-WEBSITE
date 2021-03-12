@@ -19,8 +19,9 @@ class Documents extends Migration
             $table->bigIncrements('doc_Id');
             $table->string("name");
             $table->string("document");
-            $table->string("category");
+            $table->string("category")->nullable();
             $table->string("date");
+            $table->string("manual")->nullable();
             $table->timestamps();
         });
     }

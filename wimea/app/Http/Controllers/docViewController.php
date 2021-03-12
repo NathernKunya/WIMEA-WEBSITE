@@ -11,7 +11,8 @@ class docViewController extends Controller
     //
     public function index(){
         $documents = DB::table('documents')
-        ->where('category','rc2')
+        ->where('category','Weather Data Repositories')
+        ->orwhere('manual','Weather Data Repositories Manual')
         ->get();
 
         return view('ResearchComponents.weatherdata', ['documents' => $documents]);
@@ -19,7 +20,8 @@ class docViewController extends Controller
     }
     public function rc3(){
         $documents = DB::table('documents')
-        ->where('category','rc3')
+        ->where('category','Weather Station Network Density')
+        ->orWhere('manual','Weather Station Network Density Manual')
         ->get();
 
         return view('ResearchComponents.weatherstation', ['documents' => $documents]);
@@ -27,7 +29,8 @@ class docViewController extends Controller
     }
     public function rc4(){
         $documents = DB::table('documents')
-        ->where('category','rc4')
+        ->where('category','Weather Information Dissemination')
+        ->orWhere('manual','Weather Information Dissemination Manual')
         ->get();
 
         return view('ResearchComponents.weatherinformation', ['documents' => $documents]);
@@ -35,7 +38,8 @@ class docViewController extends Controller
     }
     public function rc1(){
         $documents = DB::table('documents')
-        ->where('category','rc1')
+        ->where('category','Numerical Weather Prediction')
+        ->orWhere('manual','Numerical Weather Prediction Manual')
         ->get();
 
         return view('ResearchComponents.numericalweather', ['documents' => $documents]);
