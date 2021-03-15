@@ -49,7 +49,7 @@
 
 			<ul class="project-info clearfix">
                 <h3>DOCUMENTS</h3><br>
-                @foreach ($documents as $key=>$user)
+
                 <table class="table table-hover table-bordered">
                     <tr>
                         <th>No.</th>
@@ -63,20 +63,26 @@
 
                         @endif
                     </tr>
+                    @foreach ($documents as $key=>$user)
                     <tr>
                         <td>{{ $key+1 }}</td>
                         <td>{{ $user->name }}</td>
                         <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
+                        @if($user->manual)
+                        <td>{{ $user->manual }}</td>
+                        @else
                         <td>{{ $user->category }}</td>
+                        @endif
                         <td>{{ $user->date }}</td>
                         @if (!Auth::guest())
                         <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
                         @else
                         @endif
                     </tr>
+                    @endforeach
                 </table>
 
-                @endforeach
+
 			{{--  --}}
 
 			</ul>

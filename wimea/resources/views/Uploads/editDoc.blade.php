@@ -106,7 +106,6 @@
 
 			</div>
 
-
 			<div class="form-group ml-5">
 				<label for="file">FILE CATEGORY</label>
 				  <select name="category"  class="form-control  @error('date') is-invalid
@@ -114,11 +113,11 @@
                   @if($edituser[0]->category)
 				     <option value="{{$edituser[0]->category}}" selected> {{$edituser[0]->category}}</option>
                      @else
-                     <option value="">---select category---</option>
-					  <option value="rc1">RC1</option>
-					  <option value="rc2">RC2</option>
-					  <option value="rc3">RC3</option>
-					  <option value="rc4">RC4</option>
+					 <option value="">---select category---</option>
+					  <option value="Numerical Weather Prediction">Numerical Weather Prediction (RC1)</option>
+					  <option value="Weather Data Repositories">Weather Data Repositories(RC2)</option>
+					  <option value="Weather Station Network Density">Weather Station Network Density (RC3)</option>
+					  <option value="Weather Information Dissemination">Weather Information Dissemination (RC4)</option>
                       @endif
 				  </select>
 				  @error('category')
@@ -130,24 +129,43 @@
 
 			</div>
 
+            <div class="form-group ml-5">
+				<label for="file">USER MAUAL(S)</label>
+				  <select name="manual" class="form-control  @error('date') is-invalid
+				  @enderror">
+                  @if($edituser[0]->manual)
+                  <option value="{{$edituser[0]->manual}}" selected> {{$edituser[0]->manual}}</option>
+                  @else
+				     <option value="">---select manual---</option>
+                     <option value="Numerical Weather Prediction Manual">Numerical Weather Prediction Manual (RC1) </option>
+                     <option value="Weather Data Repositories Manual">Weather Data Repositories Manual (RC2)</option>
+                     <option value="Weather Station Network Density Manual">Weather Station Network Density Manual (RC3)</option>
+                     <option value="Weather Information Dissemination Manual">Weather Information Dissemination Manual (RC4)</option>
+				  </select>
+                  @endif
+				  @error('manual')
+
+				  <span class="invalid-feedback" role="alert">
+					  <strong>{{ $message }}</strong>
+				  </span>
+			  @enderror
+
+			</div>
 
 			<div class="form-group">
 				<button type="submit" class="btn btn-success">UPDATE</button>
 			</div>
 
 		</div>
-	</form>
-</div>
- </div>
- </div>
- </div>
+	    </form>
+    </div>
+    </div>
+    </div>
+    </div>
 
 
 
-
-
-
-    @include("layout.footer")
+    {{-- @include("layout.footer") --}}
 
 
     <!-- Js File_________________________________ -->

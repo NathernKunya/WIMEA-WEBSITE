@@ -64,13 +64,15 @@ class docViewController extends Controller
 
                     $name = $request->input('name');
                     $category = $request->input('category');
+                    $manual = $request->input('manual');
                     $date = $request->input('date');
 
                     $newfileName =  $request->input('name')."_".$request->input('category')."_".rand(1,10000).'.'.$ext;
+                    $filename2 = $request->input('name')."_".$request->input('manual')."_".rand(1,10000).'.'.$ext;
                     $moved =  $fileName->move(public_path('uploads'), $newfileName);
 
 
-            DB::update('update documents set name = ?,document=?,category=?,date=? where doc_Id = ?',[$name,$newfileName,$category,$date,$doc_Id]);
+            DB::update('update documents set name = ?,document=?,category=?, manual=?,date=? where doc_Id = ?',[$name,$newfileName,$category,$manual,$date,$doc_Id]);
         }
         return back()->with("success", "Document updated successfully");
 
