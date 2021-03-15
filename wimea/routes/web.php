@@ -54,7 +54,9 @@ Route::get("/weatherstation", [WeatherStationController::class ,"index"])->name(
 Route::get("/weatherstation", [docViewController::class ,"rc3"])->name("weatherstation");
 Route::get("/media", [MediaController::class ,"index"])->name("media");
 Route::get("/newsletter", [NewsletterController::class ,"index"])->name("newsletter");
+Route::get("/newsletter", [docViewController::class ,"newsletter"])->name("newsletter");
 Route::get("/publication", [PublicationController::class ,"index"])->name("publication");
+Route::get("/publication", [docViewController::class ,"publication"])->name("publication");
 Route::get("/intern", [InternController::class ,"index"])->name("intern");
 Route::get("/team", [TeamController::class ,"index"])->name("team");
 Route::get("/gallery", [GalleryController::class ,"index"])->name("gallery");

@@ -237,6 +237,9 @@
 					  <option value="Weather Data Repositories">Weather Data Repositories(RC2)</option>
 					  <option value="Weather Station Network Density">Weather Station Network Density (RC3)</option>
 					  <option value="Weather Information Dissemination">Weather Information Dissemination (RC4)</option>
+                      <option value="Newsletter">News Letter(s)</option>
+                      <option value="Report">Report(s)</option>
+                      <option value="Publication">Publication(s)</option>
 				  </select>
 				  @error('category')
 

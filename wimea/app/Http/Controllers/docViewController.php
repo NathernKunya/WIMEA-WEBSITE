@@ -46,6 +46,25 @@ class docViewController extends Controller
 
     }
 
+    public function newsletter(){
+        $documents = DB::table('documents')
+        ->where('category','Newsletter')
+        ->orWhere('category','Report')
+        ->get();
+
+        return view('Downloads.newsletter', ['documents' => $documents]);
+
+    }
+
+    public function publication(){
+        $documents = DB::table('documents')
+        ->where('category','Publication')
+        ->get();
+
+        return view('Downloads.publications', ['documents' => $documents]);
+
+    }
+
     public function show($doc_Id) {
         $edituser = DB::select('select * from documents where doc_Id = ?',[$doc_Id]);
 

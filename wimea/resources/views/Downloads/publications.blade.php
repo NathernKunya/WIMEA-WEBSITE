@@ -36,10 +36,61 @@
 
 
 	<div class="inner-banner"
-	style="background: url(images/inner-page/banner4.jpg) no-repeat center;
+	style="background: url(images/project/img3.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;">
 </div> <!-- /.inner-banner -->
+
+
+<div class="project-details">
+    <div class="container">
+        <div class="theme-title">
+            <h2>WIMEA-ICT PUBLICATIONS</h2>
+        </div> <!-- /.theme-title -->
+
+        <ul class="project-info clearfix">
+            <h3>DOCUMENTS</h3><br>
+
+            <table class="table table-hover table-bordered">
+                <tr>
+                    <th>No.</th>
+                    <th>Name Of the Document</th>
+                    <th>link</th>
+                    <th>Document category</th>
+                    <th>Date of Submission</th>
+                    @if (!Auth::guest())
+                    <th >Edit</th>
+                    @else
+
+                    @endif
+                </tr>
+                @foreach ($documents as $key=>$user)
+                <tr>
+                    <td>{{ $key+1 }}</td>
+                    <td>{{ $user->name }}</td>
+                    <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
+                    @if($user->manual)
+                    <td>{{ $user->manual }}</td>
+                    @else
+                    <td>{{ $user->category }}</td>
+                    @endif
+                    <td>{{ $user->date }}</td>
+                    @if (!Auth::guest())
+                    <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
+                    @else
+                    @endif
+                </tr>
+                @endforeach
+            </table>
+
+
+        {{--  --}}
+
+        </ul>
+        <img src="images/project/img3.jpg" alt="Image">
+
+    </div>
+</div> <!-- /.project-details -->
     @include("layout.footer")
 
 

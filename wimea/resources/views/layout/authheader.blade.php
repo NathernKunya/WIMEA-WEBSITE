@@ -97,8 +97,8 @@
                   </li>
                   <li><a href="#">DOWNLOADS</a>
                     <ul class="dropdown">
-                      <li><a href="{{route("monthlyprogress")}}">Monthly Progress Reports</a></li>
-                      <li><a href="{{route("newsletter")}}">Newletters and Reports</a></li>
+                      {{-- <li><a href="{{route("monthlyprogress")}}">Monthly Progress Reports</a></li> --}}
+                      <li><a href="{{route("newsletter")}}">Newsletters and Reports</a></li>
                       <li><a href="{{route("publication")}}">Publications</a></li>
                    </ul>
                 </li>

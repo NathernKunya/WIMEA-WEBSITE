@@ -29,7 +29,7 @@ class TechnicalDocumentsController extends Controller
                //dd($ext);
 
 
-        $newfileName =  $request->name."_".$request->category."_".rand(1,10000).'.'.$ext;
+        $newfileName =  $request->name."_".$request->category ."_".$request->date."_".rand(1,10000).'.'.$ext;
        // dd($newfileName);
 
         $moved =  $fileName->move(public_path('uploads'), $newfileName);
