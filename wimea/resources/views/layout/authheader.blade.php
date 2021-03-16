@@ -38,7 +38,7 @@
                             <li>
                                 <i class="fa fa-phone p-color" aria-hidden="true"></i>
                                 <h6>Contact us</h6>
-                                <p> +256 757 734717</p>
+                                <p> 0414-542803</p>
                             </li>
                             <li>
                                 <i class="fa fa-clock-o p-color" aria-hidden="true"></i>
