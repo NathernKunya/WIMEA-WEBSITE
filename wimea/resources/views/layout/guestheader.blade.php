@@ -81,10 +81,15 @@
                   </li>
                   <li><a href="#">RESEARCH COMPONENTS</a>
                       <ul class="dropdown">
-                        <li><a href="{{ route("numericalweather") }}">Numerical Weather Prediction</a></li>
-                        <li><a href="{{ route("weatherdata") }}">Weather Data Repositories</a></li>
-                        <li><a href="{{ route("weatherstation") }}">Weather Station Network Density</a></li>
-                        <li><a href="{{ route("weatherinformation") }}">Weather Information Dissemination</a></li>
+                        <li><a href="{{ route("numericalweather") }}">Numerical Weather Prediction (RC1)</a>
+                                {{-- <ul>
+                                    <li><a href="{{ route("numericalweather") }}">ABOUT US</a></li>
+                                    <li><a href="{{ route("numericalweather") }}">TEAM MEMBERS</a></li>
+                                </ul> --}}
+                        </li>
+                        <li><a href="{{ route("weatherdata") }}">Weather Data Repositories (RC2)</a></li>
+                        <li><a href="{{ route("weatherstation") }}">Weather Station Network Density (RC3)</a></li>
+                        <li><a href="{{ route("weatherinformation") }}">Weather Information Dissemination (RC4)</a></li>
                      </ul>
                   </li>
                   <li><a href="#">DOWNLOADS</a>

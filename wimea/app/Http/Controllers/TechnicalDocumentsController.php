@@ -34,8 +34,8 @@ class TechnicalDocumentsController extends Controller
 
         $moved =  $fileName->move(public_path('uploads'), $newfileName);
         //$file->move(public_path() . '/mytestfile/', $name);
-            $inserted = DB::insert('insert into documents (name, date, category,manual,document)
-            values (?, ?,?,?,?)', [$request->name , $request->date, $request->category, $request->manual , $newfileName]);
+            $inserted = DB::insert('insert into documents (name, date, category,document)
+            values (?, ?,?,?)', [$request->name , $request->date, $request->category , $newfileName]);
 
             }
             return back()->with("success", "files uploaded successfully");

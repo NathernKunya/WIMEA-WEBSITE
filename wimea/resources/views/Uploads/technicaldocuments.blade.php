@@ -240,6 +240,10 @@
                       <option value="Newsletter">News Letter(s)</option>
                       <option value="Report">Report(s)</option>
                       <option value="Publication">Publication(s)</option>
+                      <option value="Numerical Weather Prediction Manual">Numerical Weather Prediction Manual (RC1) </option>
+                      <option value="Weather Data Repositories Manual">Weather Data Repositories Manual (RC2)</option>
+                      <option value="Weather Station Network Density Manual">Weather Station Network Density Manual (RC3)</option>
+                      <option value="Weather Information Dissemination Manual">Weather Information Dissemination Manual (RC4)</option>
 				  </select>
 				  @error('category')
 
@@ -249,7 +253,7 @@
 			  @enderror
 
 			</div>
-            <div class="form-group ml-5">
+            {{-- <div class="form-group ml-5">
 				<label for="file">USER MAUAL(S)</label>
 				  <select name="manual" class="form-control  @error('date') is-invalid
 				  @enderror">
@@ -266,7 +270,7 @@
 				  </span>
 			  @enderror
 
-			</div>
+			</div> --}}
 
 
 			<div class="form-group">

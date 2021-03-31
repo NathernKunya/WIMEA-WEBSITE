@@ -76,8 +76,11 @@ Route::get("/view_documents", [WeatherDataController::class ,"fetchDocument"]);
 
 //Route::get('edituser/{doc_Id}',[docViewController:: class, "show"])->name("technicaldocuments");
 Route::get('edituser/{doc_Id}',[docViewController::class, "show"]);
+Route::get('editmanual/{doc_Id}',[docViewController::class, "showmanual"]);
 
 Route::post('edit/{doc_Id}',[docViewController:: class, "editdocument"]);
+
+Route::post('editmanual/{doc_Id}',[docViewController:: class, "editmanual"]);
 
 Auth::routes();
 

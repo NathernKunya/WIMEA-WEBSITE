@@ -70,13 +70,13 @@
 	@endif
 	<div class="card-body">
 	<h5 class="card-title">UPDATE FILE FORM</h5> &nbsp;
-	<form action="/edit/<?php echo $edituser[0]->doc_Id; ?>" method="POST" enctype="multipart/form-data">
+	<form action="/edit/<?php echo $editmanual[0]->doc_Id; ?>" method="POST" enctype="multipart/form-data">
 		@csrf
 
 
 			<div class="form-group">
 				<label for="file">NAME OF THE FILE(S)</label>
-				<input type="text" name="name" placeholder="Enter file name" value = '<?php echo$edituser[0]->name; ?>'
+				<input type="text" name="name" placeholder="Enter file name" value = '<?php echo$editmanual[0]->name; ?>'
 				 class="form-control @error('name') is-invalid
 				@enderror">
 				@error('name')
@@ -90,13 +90,13 @@
 			<div class="form-group ml-5">
 				<label for="file">FILE TO UPLOAD</label>
 				<input type="file" name="file[]" multiple class="form-control" id="file"
-                value = '<?php echo$edituser[0]->document; ?>' >
+                value = '<?php echo$editmanual[0]->document; ?>' >
 			</div>
 			<div class="form-group  ml-5">
 				<label for="" class="date">DATE</label>
 
 				  <input class="form-control @error('date') is-invalid
-				  @enderror" name="date" value = '<?php echo$edituser[0]->date; ?>'" type="date"  >
+				  @enderror" name="date" value = '<?php echo$editmanual[0]->date; ?>'" type="date"  >
 				  @error('date')
 
 				  <span class="invalid-feedback" role="alert">
@@ -106,42 +106,12 @@
 
 			</div>
 
-			<div class="form-group ml-5">
-				<label for="file">FILE CATEGORY</label>
-				  <select name="category"  class="form-control  @error('date') is-invalid
-				  @enderror">
-                  @if($edituser[0]->category)
-				     <option value="{{$edituser[0]->category}}" selected> {{$edituser[0]->category}}</option>
-                     @else
-					 <option value="">---select category---</option>
-					  <option value="Numerical Weather Prediction">Numerical Weather Prediction (RC1)</option>
-					  <option value="Weather Data Repositories">Weather Data Repositories(RC2)</option>
-					  <option value="Weather Station Network Density">Weather Station Network Density (RC3)</option>
-					  <option value="Weather Information Dissemination">Weather Information Dissemination (RC4)</option>
-                      <option value="Newsletter">News Letter(s)</option>
-                      <option value="Report">Report(s)</option>
-                      <option value="Publication">Publication(s)</option>
-                      <option value="Numerical Weather Prediction Manual">Numerical Weather Prediction Manual (RC1) </option>
-                     <option value="Weather Data Repositories Manual">Weather Data Repositories Manual (RC2)</option>
-                     <option value="Weather Station Network Density Manual">Weather Station Network Density Manual (RC3)</option>
-                     <option value="Weather Information Dissemination Manual">Weather Information Dissemination Manual (RC4)</option>
-                      @endif
-				  </select>
-				  @error('category')
-
-				  <span class="invalid-feedback" role="alert">
-					  <strong>{{ $message }}</strong>
-				  </span>
-			  @enderror
-
-			</div>
-
-            {{-- <div class="form-group ml-5">
+            <div class="form-group ml-5">
 				<label for="file">USER MAUAL(S)</label>
 				  <select name="manual" class="form-control  @error('date') is-invalid
 				  @enderror">
-                  @if($edituser[0]->manual)
-                  <option value="{{$edituser[0]->manual}}" selected> {{$edituser[0]->manual}}</option>
+                  @if($editmanual[0]->manual)
+                  <option value="{{$editmanual[0]->manual}}" selected> {{$editmanual[0]->manual}}</option>
                   @else
 				     <option value="">---select manual---</option>
                      <option value="Numerical Weather Prediction Manual">Numerical Weather Prediction Manual (RC1) </option>
@@ -157,7 +127,7 @@
 				  </span>
 			  @enderror
 
-			</div> --}}
+			</div>
 
 			<div class="form-group">
 				<button type="submit" class="btn btn-success">UPDATE</button>

@@ -68,11 +68,8 @@
                         <td>{{ $key+1 }}</td>
                         <td>{{ $user->name }}</td>
                         <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
-                        @if($user->manual)
-                        <td>{{ $user->manual }}</td>
-                        @else
+
                         <td>{{ $user->category }}</td>
-                        @endif
                         <td>{{ $user->date }}</td>
                         @if (!Auth::guest())
                         <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
@@ -102,8 +99,8 @@
 			<div class="details-tab-wrapper">
 				<ul class="nav nav-tabs">
 					<li class="active"><a data-toggle="tab" href="#home">DAY ONE</a></li>
-					<li><a data-toggle="tab" href="#menu1">Solution</a></li>
-					<li><a data-toggle="tab" href="#menu2">Result</a></li>
+					<li><a data-toggle="tab" href="#menu1">Objectives</a></li>
+					<li><a data-toggle="tab" href="#menu2">Activities</a></li>
 				</ul>
 
 				<div class="tab-content">
@@ -114,25 +111,24 @@
 					<li>Presentation of Achievements and plans. See presentation</li>
 					<li>General Discussion of Progress</li>
 
-
-
-
-
-
 					</ul>
 					</div>
 					  <div id="menu1" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
-					  </div>
+                          <h3>Objectives</h3><br>
+                        <p>1. To Assist Meteorological Services in increasing the number of Automatic Weather Stations(AWS) in Uganda, South Sudan and Tanzania by
+                        </p>
+                        <p>2. To design robust AWS</p>
+
+                    </div>
+
 					<div id="menu2" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
-					</div>
+                        <h3>Activities</h3><br>
+					<p>1. Designing, testing and evaluating the First Generation Prototype (Gen1) –</p>
+                    <p>2. Designing and Testing the Second Generation prototype in</p>
+                    <p>i.  Uganda</p>
+                    <p>ii. South Sudan</p>
+                    <p>iii.  Tanzania</p>
+                    </div>
 				</div>
 			</div> <!-- /.details-tab-wrapper -->
 		</div>

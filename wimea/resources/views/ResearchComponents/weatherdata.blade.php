@@ -67,11 +67,7 @@
                         <th scope="row">{{ $key+1 }}</th>
                         <td>{{ $user->name }}</td>
                         <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
-                        @if($user->manual)
-                        <td>{{ $user->manual }}</td>
-                        @else
                         <td>{{ $user->category }}</td>
-                        @endif
                         <td>{{ $user->date }}</td>
                         @if (!Auth::guest())
                         <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
@@ -80,6 +76,7 @@
                     </tr>
                     </tbody>
                     @endforeach
+                </table>
                 </table>
 			{{--  --}}
 

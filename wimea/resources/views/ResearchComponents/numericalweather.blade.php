@@ -70,11 +70,7 @@
                         <th scope="row">{{ $key+1 }}</th>
                         <td>{{ $user->name }}</td>
                         <td><a href="uploads/{{ $user->document  }} " target="blank">	<i class="fa fa-file" aria-hidden="true"></i> {{ $user->document  }}</a></td>
-                        @if($user->manual)
-                        <td>{{ $user->manual }}</td>
-                        @else
                         <td>{{ $user->category }}</td>
-                        @endif
                         <td>{{ $user->date }}</td>
                         @if (!Auth::guest())
                         <td><a href = 'edituser/{{ $user->doc_Id }}'> <button class="btn btn-primary">Edit</button></a></td>
@@ -89,44 +85,58 @@
 			</ul>
 
 			<div class="speach">
-				<p>It was an important business dealing. Because of this deal, our market share has been
-				increased by 23%. We would highly recommend FinTech to any who needs help with
-				Market research. I highly recommend.Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy</p>
-				<div class="text-right">
+				<p>
+                    The research component No.1 is about customizing a numerical weather prediction model for operational weather prediction in partner countries. The Consortium for Small-scale modeling (COSMO) model and the Weather Research and Forecasting (WRF) model are identified as research and operational prediction models. Sample results are presented using Figure 1 below. The component has the following members:The research component No.1 is about customizing a numerical weather prediction model for operational weather prediction in partner countries.
+                    The Consortium for Small-scale modeling (COSMO) model and the Weather Research and Forecasting (WRF)
+                     model are identified as research and operational prediction models. Sample results are presented using Figure below on the Right.
+                </p>
+                <div class="text-right">
 					<div class="text-left">
-						<h6>Steve Jark</h6>
-						<span>CEO, Apple, Inc</span>
+						<h6>ISAAC MUGUME</h6>
+						<span>PhD CANDIDATE</span>
 					</div>
 				</div>
 			</div> <!-- /.speach -->
-			<img src="images/project/img3.jpg" alt="Image">
-
+        <div class="row">
+            <figure class="figure">
+			<img src="images/project/wrf1.png" alt="Image"  class="figure-img img-fluid rounded col-md-6" >
+            {{-- <figcaption  class="figure-caption text-right"> Figure 1</figcaption> --}}
+            </figure>
+            <img src="images/project/wrf2.png" alt="Image" class="isotop-item strategy col-md-6" >
+        </div>
 			<div class="details-tab-wrapper">
 				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Challenge</a></li>
-					<li><a data-toggle="tab" href="#menu1">Solution</a></li>
-					<li><a data-toggle="tab" href="#menu2">Result</a></li>
+					<li class="active"><a data-toggle="tab" href="#home">TEAM MEMBERS</a></li>
+					<li><a data-toggle="tab" href="#menu1">COLLABORATORS</a></li>
+					<li><a data-toggle="tab" href="#menu2">ACHIEVEMENT</a></li>
 				</ul>
 
 				<div class="tab-content">
 					<div id="home" class="tab-pane fade in active">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
-					</div>
+                        <h2>  The component has the following members:</h2><br>
+                        <p>1. Dr. Julianne Sansa-Otim Principal Investigator and PhD adviser.</p>
+                        <p>2. Prof. Joachim Reuder, Member and PhD adviser from University of Bergen, Norway</p>
+                        <p>3. Assoc. Prof. Charles Basalirwa  Member and PhD adviser from Makerere University, Uganda</p>
+                        <p>4. Dr. Daniel Waiswa  Member and PhD adviser from Makerere University, Uganda</p>
+                        <p>5. Dr. Alex Nimusiima Member and M.Sc adviser from Makerere University, Uganda</p>
+                        <p>6. Mr. Isaac Mugume Member and PhD candidate from Makerere University, Uganda</p>
+                        <p>7. Mr. David Lukudu Member and PhD candidate from University of Juba, South Sudan</p>
+                        <p>8. Mr. Ronald Opio Member and M.Sc candidate from Makerere University, Uganda</p>
+                    </div>
+
 					  <div id="menu1" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
-					  </div>
+                          <h2> Key collaborators from Uganda National Meteorological Authority on RC1:</h2><br>
+                          <p>1. Ms. Teddy Tindamanyire Director Research and Training, UNMA</p>
+                          <p>2. Dr. Bob Ogwang Principal Meteorologist, UNMA</p>
+                          <p>3. Mr. Godwin Ayesiga PhD Candidate and Principal Meteorologist, UNMA</p>
+                          <p>4. Mr. Musa Semujju Forecaster, UNMA</p>
+
+                    </div>
+
 					<div id="menu2" class="tab-pane fade">
-						<p>Since the cost of energy has become a significant factor in the performance of economy of societies, management of energy resources has become very crucial. Energy management involves utilizing the available energy resources more effectively that is inline with minimum incremental costs. Many times it is possible to save expenditure on energy without incorporating fresh technology by simple management techniques.</p> <br>
-						<p>FinTech is a global consulting powerhouse. We began our operations a few decades ago and have grown due to excellent relationships with our clients. We started out small, with just a few people and a small office, but today we have offices in multiple countries with hundreds of people working inside them.</p> <br>
-						<p>We achieved our success because of how successfully we integrate with our clients. One complaint many people have about consultants is that they can be disruptive. Employees fear outside consultants coming in and destroying the workflow. Our clients face no such issues.</p> <br>
-						<p>The image of a company is very important. Would you want to work with a consultation company whose office was in shambles? We judge things often by their appearance, especially when seeing something for the first time. If you are an excellent company with a bad image or appearance then you may have loyal clients but new clients will be hard to get.</p>
-					</div>
+                        <p>Training UNMA forecasters in installation and experimentation of the WRF model2.
+                            Co-authored scientific papers with UNMA staffs. Offering continuous support in using WRF model.</p>
+                    </div>
 				</div>
 			</div> <!-- /.details-tab-wrapper -->
 		</div>

@@ -21,7 +21,6 @@ class Documents extends Migration
             $table->string("document");
             $table->string("category")->nullable();
             $table->string("date");
-            $table->string("manual")->nullable();
             $table->timestamps();
         });
     }

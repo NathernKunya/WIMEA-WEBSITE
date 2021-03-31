@@ -79,7 +79,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("aboutus") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -159,7 +159,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("numericalweather") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -239,7 +239,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("weatherdata") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -319,7 +319,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("weatherinformation") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
              <!-- SLIDE3  -->
@@ -397,7 +397,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("weatherstation") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -476,7 +476,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("weatherstation") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -555,7 +555,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("aboutus") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -634,7 +634,7 @@
                      data-splitin="none"
                      data-splitout="none"
                      data-responsive_offset="on">
-                     <a href="about-us.html" class="hvr-rectangle-in">READ MORE</a>
+                     <a href="{{ route("aboutus") }}" class="hvr-rectangle-in">READ MORE</a>
                  </div>
              </li>
 
@@ -765,12 +765,10 @@ Data Transport Protocols" from the University of Groningen, in the Netherlands</
              </div>
              <div class="item">
                    <img src="images/icon/7.png" alt="Image">
-                   <p>I have been using Fintech for more than three years, and I love thier  service.
-                 Their team is very helpful andskilled, and usually come up  with all the support
-                 we needed in our entire project. I highly urge to anyone who wants to take their
-                 service! They are Brilliant at what they do. Go with them without any doubt. We
-                 strongly recommend the service of Fintech.</p>
-                 <h6>Andres Istemal,  CEO,  Dexa</h6>
+                   <p>Weather information is vital for all. The WIMEA-ICT project aims at providing rapid dissemination of accurate, consistent, and high-quality forecast information to targeted stakeholders using suitable ICTs. The stakeholder will be allowed to ask complex questions about the past, present and future weather information. Of particular interest is ability to provide information in local languages. This MSc research will support on-going PhD research in developing an integrated and effective weather dissemination system for Uganda. The most important components include software architecture,
+                        software modeling, formal specifications, Java Programming, C Programming, databases, and enterprise systems engineering.</p>
+                 <h6>DOREEN TUHEIRWE MUKASA</h6>
+
              </div>
          </div> <!-- /.carousel-inner -->
 
@@ -779,7 +777,7 @@ Data Transport Protocols" from the University of Groningen, in the Netherlands</
              <li data-target="#client-carousel" data-slide-to="0" class="active"><img src="images/home/jj3.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="1"><img src="images/home/ns1.jpg" alt="Image"></li>
              <li data-target="#client-carousel" data-slide-to="2"><img src="images/home/isaac1.jpg" alt="Image"></li>
-             <li data-target="#client-carousel" data-slide-to="3"><img src="images/home/1.jpg" alt="Image"></li>
+             <li data-target="#client-carousel" data-slide-to="3"><img src="images/home/doreen1.jpg" alt="Image"></li>
          </ol>
      </div> <!-- /#client-carousel -->
  </div> <!-- /.container -->
@@ -798,25 +796,25 @@ Data Transport Protocols" from the University of Groningen, in the Netherlands</
      <div class="row">
          <div class="col-md-3 col-xs-6">
              <div class="text-center colorOne">
-                 <span class="timer" data-from="0" data-to="3500" data-speed="1000" data-refresh-interval="5">0</span>
+                 <span class="timer" data-from="0" data-to="4" data-speed="1000" data-refresh-interval="5">0</span>
                  <h5>Project Completed</h5>
              </div> <!-- /.text-center -->
          </div> <!-- /.col -->
          <div class="col-md-3 col-xs-6">
              <div class="text-center colorTwo">
-                 <span class="timer" data-from="0" data-to="1000" data-speed="1000" data-refresh-interval="5">0</span>
+                 <span class="timer" data-from="0" data-to="10000" data-speed="1000" data-refresh-interval="5">0</span>
                  <h5>Satisfied Clients</h5>
              </div> <!-- /.text-center -->
          </div> <!-- /.col -->
          <div class="col-md-3 col-xs-6">
              <div class="text-center colorThree">
-                 <span class="timer" data-from="0" data-to="575" data-speed="1000" data-refresh-interval="5">0</span>
+                 <span class="timer" data-from="0" data-to="4" data-speed="1000" data-refresh-interval="5">0</span>
                  <h5>Projects</h5>
              </div> <!-- /.text-center -->
          </div> <!-- /.col -->
          <div class="col-md-3 col-xs-6">
              <div class="text-center colorFour">
-                 <span class="timer" data-from="0" data-to="14" data-speed="1000" data-refresh-interval="5">0</span>
+                 <span class="timer" data-from="0" data-to="7" data-speed="1000" data-refresh-interval="5">0</span>
                  <h5>Years in the Industry</h5>
              </div> <!-- /.text-center -->
          </div> <!-- /.col -->
